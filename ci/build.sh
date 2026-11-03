@@ -4,6 +4,8 @@ device_repo=$(cd -- "$(dirname -- "$0")/.." && pwd)
 build_root=${AERA_SOURCE_DIR:?Set AERA_SOURCE_DIR to a dedicated source directory}
 artifact_root=${AERA_ARTIFACT_DIR:?Set AERA_ARTIFACT_DIR}
 jobs=${BUILD_JOBS:-2}
+# Catch missing BusyBox packaging inputs before syncing and compiling Android.
+python3 -B -c 'import sys; sys.path.insert(0, sys.argv[1] + "/tools"); from verify_busybox import verify_tree; verify_tree(sys.argv[1])' "$device_repo"
 mkdir -p "$build_root" "$artifact_root"
 trap 'df -h "$build_root" | tee "$artifact_root/source-capacity.txt"' EXIT
 if [[ -n ${AERA_DEVICE_REVISION:-} ]]; then
