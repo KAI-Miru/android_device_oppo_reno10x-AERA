@@ -75,11 +75,8 @@ AERA_INCLUDE_FBE_METADATA_DECRYPT := true
 AERA_USE_FSCRYPT_POLICY := 1
 # Require confirmed, non-forced userdata mapping removal before Format Data.
 AERA_USE_DMCTL := 1
-# prepdecrypt loads the installed system version before Keymaster starts.
-PLATFORM_VERSION := 12
-PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
-PLATFORM_SECURITY_PATCH := 2022-10-05
-VENDOR_SECURITY_PATCH := 2022-10-05
+# Use the source tree's platform defaults at build time.
+# At runtime, prepdecrypt reads the installed ROM's version and patch levels.
 
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_QCOM_RTC_FIX := true
