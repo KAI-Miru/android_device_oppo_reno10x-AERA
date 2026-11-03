@@ -1,0 +1,1682 @@
+{
+  "system/bin/aera-vendor-allocator": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "a4cafdfa1ac7885c7262bc38423c6077c0772a5c7dc36caf1303af7a641b9625",
+    "bytes": 34432
+  },
+  "system/bin/android.hardware.gatekeeper@1.0-service-qti": {
+    "source": "Reno stock dump:vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti",
+    "sha256": "9d7d2274c8849c46259f1a82eeb644149690b0137b9a9a5f04d349a7e35d832a",
+    "bytes": 11496
+  },
+  "system/bin/android.hardware.keymaster@4.0-service-qti": {
+    "source": "Reno stock recovery:system/bin/android.hardware.keymaster@4.0-service-qti",
+    "sha256": "e50812dd4252b7907650e49b31699809c7194e7dd154342cf053c1a92d741b26",
+    "bytes": 11832
+  },
+  "system/bin/qseecomd": {
+    "source": "Reno stock recovery:system/bin/qseecomd",
+    "sha256": "15295176e7a05f0572fc47f2923f20baeaa67a39dca6f1fc4a6513fc2025b65c",
+    "bytes": 16504
+  },
+  "system/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so": {
+    "source": "Reno stock dump:vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so",
+    "sha256": "73dab5bff45b97cf3e8fe87583adb7135fde715de05d1ea5d8c97e89dbbef087",
+    "bytes": 37864
+  },
+  "system/lib64/libGPreqcancel.so": {
+    "source": "Reno stock recovery:system/lib64/libGPreqcancel.so",
+    "sha256": "9602fc69424bf0b77d20796278fdadfc33103ccf09ca48992d3d630f340be3fe",
+    "bytes": 20024
+  },
+  "system/lib64/libGPreqcancel_svc.so": {
+    "source": "Reno stock recovery:system/lib64/libGPreqcancel_svc.so",
+    "sha256": "cc677faa9d93cbff254efa9381325e9f539692ecdc142e4bcd77e75e2fcff4a5",
+    "bytes": 24136
+  },
+  "system/lib64/libQSEEComAPI.so": {
+    "source": "Reno stock recovery:system/lib64/libQSEEComAPI.so",
+    "sha256": "299eddd12acd41623706a613f2e440b20966121663a21ec17c5706c17a9cb4c0",
+    "bytes": 40816
+  },
+  "system/lib64/libSecureUILib.so": {
+    "source": "Reno stock recovery:system/lib64/libSecureUILib.so",
+    "sha256": "f9c86bfbc392ee7378c4bc90c5acd640cc2704b3fd9c6c1885ec10ae6fb301e4",
+    "bytes": 19976
+  },
+  "system/lib64/libStDrvInt.so": {
+    "source": "Reno stock recovery:system/lib64/libStDrvInt.so",
+    "sha256": "e7aa592922fe4b518c913cbd6b92e6f84567e578e5b52ad9a626ed8b2f377b14",
+    "bytes": 28408
+  },
+  "system/lib64/libadreno_utils.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "ef677d142efb114bc049d4058d40d17a0d155f62afebde3bcc661d210f4e5513",
+    "bytes": 81376
+  },
+  "system/lib64/libdiag.so": {
+    "source": "Reno stock recovery:system/lib64/libdiag.so",
+    "sha256": "4bdeef0a82b72017eb79c4aa28f107a4b440473b47675acf6fa19dc0834c225e",
+    "bytes": 229464
+  },
+  "system/lib64/libdisplayconfig.qti.so": {
+    "source": "Reno stock dump:vendor/lib64/libdisplayconfig.qti.so",
+    "sha256": "4542a6113215ffabe1f2784df1ee531e42acbbb39f59a7e87b1e6b3a6df28e8c",
+    "bytes": 119592
+  },
+  "system/lib64/libdrm.so": {
+    "source": "Reno stock dump:vendor/lib64/libdrm.so",
+    "sha256": "e8c718c29327ec9b213295be1ee0d2c56688ac489b09a600571dd1144bd12481",
+    "bytes": 83032
+  },
+  "system/lib64/libdrmfs.so": {
+    "source": "Reno stock recovery:system/lib64/libdrmfs.so",
+    "sha256": "2dfb3c78a0730f219f6f2a29770ea605302868406f90fb98f882b8ff680583ca",
+    "bytes": 41072
+  },
+  "system/lib64/libdrmtime.so": {
+    "source": "Reno stock recovery:system/lib64/libdrmtime.so",
+    "sha256": "0d8f4ee9b5e80ade746a3e7203916170f8347e176019a34fe6188f9b2f817df4",
+    "bytes": 15416
+  },
+  "system/lib64/libgralloc.qti.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "bebe1bd5dbf889c6eb81e1c48fd0968b4987429657e1eaba4736ac23b395500d",
+    "bytes": 28760
+  },
+  "system/lib64/libgralloccore.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "8ad706c64d5c47abc2df4db458ef9c7efc8f6d47a2decc5112a7b6c96ff821cc",
+    "bytes": 71064
+  },
+  "system/lib64/libgrallocutils.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "41620f9fa8a5c47e86bb68c4b75eab9e173bcd6912c0af11350f664b5bec31d6",
+    "bytes": 40760
+  },
+  "system/lib64/libgsl.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "24acda32d84debd36b6164f3d2e70188a1d7ef5927054b5d6a6beb0057188919",
+    "bytes": 2129952
+  },
+  "system/lib64/libidl.so": {
+    "source": "Reno stock recovery:system/lib64/libidl.so",
+    "sha256": "3b4e313616696cb6fe1fc041799a92449175fbe2180162f2265cb87c6793691a",
+    "bytes": 19368
+  },
+  "system/lib64/libjson.so": {
+    "source": "Reno stock dump:vendor/lib64/libjson.so",
+    "sha256": "f822bf0c21b0d7d10d2ed2539f561750931021a21163fdf840d02a8c24182d24",
+    "bytes": 45712
+  },
+  "system/lib64/libkeymasterdeviceutils.so": {
+    "source": "Reno stock recovery:system/lib64/libkeymasterdeviceutils.so",
+    "sha256": "a7c0ac2712fba9c963893e04b7b6fcd5adc1215fc103e0bb9d997a0dc9817439",
+    "bytes": 19832
+  },
+  "system/lib64/libkeymasterutils.so": {
+    "source": "Reno stock recovery:system/lib64/libkeymasterutils.so",
+    "sha256": "4ef78227e5cb271607f3d183f90303d98dbc46dd54f89a97966b45eaee6ecad0",
+    "bytes": 38952
+  },
+  "system/lib64/libllvm-glnext.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "03f59deb54329b69df085d94cdf35247f71b6e38cac3cf57898ea496f82d564f",
+    "bytes": 13889168
+  },
+  "system/lib64/libmdmdetect.so": {
+    "source": "Reno stock recovery:system/lib64/libmdmdetect.so",
+    "sha256": "abb807a879b0124b837c546612a42f86ff900e9df04328872ac817a602740fc1",
+    "bytes": 19944
+  },
+  "system/lib64/libperipheral_client.so": {
+    "source": "Reno stock dump:vendor/lib64/libperipheral_client.so",
+    "sha256": "e92e05976d7c04c04c055f569d87c4f27feac2b1901cd5ef4c617e62a7f770e4",
+    "bytes": 55648
+  },
+  "system/lib64/libqcbor.so": {
+    "source": "Reno stock recovery:system/lib64/libqcbor.so",
+    "sha256": "d41f6e3b8e367913e97b133c5231c5e40bbb1ec788a06195de2b0d876f1d1588",
+    "bytes": 19504
+  },
+  "system/lib64/libqdMetaData.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "89c7dcd4a140bc0d3f49c9318b8a96bd023d0833d73cffe130cc3d7ee10cbc96",
+    "bytes": 24224
+  },
+  "system/lib64/libqisl.so": {
+    "source": "Reno stock recovery:system/lib64/libqisl.so",
+    "sha256": "f25dd475c18d085a24f80a181823009e58d96079c95d8c05bc3642ae9cdd1e9b",
+    "bytes": 20112
+  },
+  "system/lib64/libqmi_cci.so": {
+    "source": "Reno stock recovery:system/lib64/libqmi_cci.so",
+    "sha256": "5ea00acf8889f0f6a3ccb97eb4f1f164d38c62caed787eaced962cf42a6f996d",
+    "bytes": 50072
+  },
+  "system/lib64/libqmi_common_so.so": {
+    "source": "Reno stock recovery:system/lib64/libqmi_common_so.so",
+    "sha256": "bb73d095fecf384145853a9611b7abafe2caecd23761dd4fd1e9dda6ced6379e",
+    "bytes": 11312
+  },
+  "system/lib64/libqmi_csi.so": {
+    "source": "Reno stock dump:vendor/lib64/libqmi_csi.so",
+    "sha256": "81157b7d979cbeb33fe62fd3132b2e56de2c36936abf683874d4eca2bdb25696",
+    "bytes": 37536
+  },
+  "system/lib64/libqmi_encdec.so": {
+    "source": "Reno stock recovery:system/lib64/libqmi_encdec.so",
+    "sha256": "2e769ff9ce8670c0799e914db68c62986d22ab28d909dd22238c2b1e8c92a894",
+    "bytes": 19440
+  },
+  "system/lib64/libqmiservices.so": {
+    "source": "Reno stock recovery:system/lib64/libqmiservices.so",
+    "sha256": "b6cb88ce12a7010ab4e9eb178c005d6733c45b7747c1d8a6bf70ffbb43133975",
+    "bytes": 153040
+  },
+  "system/lib64/libqrtr.so": {
+    "source": "Reno stock dump:vendor/lib64/libqrtr.so",
+    "sha256": "c47c999e1c1264434d77f21560849b8e82f38b4378e960fed241b91ea225d340",
+    "bytes": 11416
+  },
+  "system/lib64/libqsocket.so": {
+    "source": "Reno stock dump:vendor/lib64/libqsocket.so",
+    "sha256": "6244a21e99da6dd7f2884e5f0672713af0d2952c5a05bf2fb702e16b2a3c6cdd",
+    "bytes": 10872
+  },
+  "system/lib64/libqtikeymaster4.so": {
+    "source": "Reno stock recovery:system/lib64/libqtikeymaster4.so",
+    "sha256": "9bf48a55e68bff2e937977a4e0cd1956bfaebacb6e48f6b90432afdc1a7152f9",
+    "bytes": 151080
+  },
+  "system/lib64/librpmb.so": {
+    "source": "Reno stock recovery:system/lib64/librpmb.so",
+    "sha256": "a276d9fbfd2fd24b863ba2f39dbb2ff90468549f5bf84447fa516a7c4195cc1b",
+    "bytes": 42328
+  },
+  "system/lib64/libsecureui.so": {
+    "source": "Reno stock recovery:system/lib64/libsecureui.so",
+    "sha256": "252659d0ddb364fd5948d26003696d757391635d4388523e1e439d5233eecb68",
+    "bytes": 46112
+  },
+  "system/lib64/libsecureui_svcsock.so": {
+    "source": "Reno stock recovery:system/lib64/libsecureui_svcsock.so",
+    "sha256": "761fe83858954e64fee0ee725b08d0b0fd79a1347dac60fff9bf7608bd09a530",
+    "bytes": 48224
+  },
+  "system/lib64/libspcom.so": {
+    "source": "Reno stock recovery:system/lib64/libspcom.so",
+    "sha256": "a306b5c092847748f9095dc9323615a60668801eaa197d26392dd42a78296bd3",
+    "bytes": 53360
+  },
+  "system/lib64/libspl.so": {
+    "source": "Reno stock dump:vendor/lib64/libspl.so",
+    "sha256": "6be8b4a2944d427398f0cc5ca2f6e11a70327f32c0d78ac209720b074f297d89",
+    "bytes": 11232
+  },
+  "system/lib64/libssd.so": {
+    "source": "Reno stock recovery:system/lib64/libssd.so",
+    "sha256": "c48165e0607488b22a7d92152d7efc73f5383c15793fa4d065c2526fcc65f646",
+    "bytes": 11272
+  },
+  "system/lib64/libtime_genoff.so": {
+    "source": "Reno stock recovery:system/lib64/libtime_genoff.so",
+    "sha256": "3ad740b4b9f47f4d849de44c75d1fb7bbb86a4090f9a8386caea5ea92b2f5962",
+    "bytes": 11080
+  },
+  "system/lib64/vendor.display.config@1.0.so": {
+    "source": "Reno stock recovery:system/lib64/vendor.display.config@1.0.so",
+    "sha256": "bad39537aa01f1e6c1b59169c7d1cf89c3c498379f0ee5a263de289a07871f96",
+    "bytes": 129904
+  },
+  "system/lib64/vendor.display.config@2.0.so": {
+    "source": "Reno stock dump:vendor/lib64/vendor.display.config@2.0.so",
+    "sha256": "fff4ac6dba9f8d227b0535697c5e5394ef9de16b239642764d5c467f00b33234",
+    "bytes": 128152
+  },
+  "system/lib64/vendor.qti.hardware.display.allocator@3.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "b37169ee7ac51a87b2d3f834afff0d054abe64eed856969a8a699660a6ec1a2b",
+    "bytes": 81208
+  },
+  "system/lib64/vendor.qti.hardware.display.allocator@4.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "c6eab4cb1c5818982cae9e0228ee3de4d3aaa91cfdf6127ec462e3431c9a6f37",
+    "bytes": 81000
+  },
+  "system/lib64/vendor.qti.hardware.display.mapper@2.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "b1130d860a440c153ab8bd4235eda012ff20cef85325f6b260227616d7d3db23",
+    "bytes": 104848
+  },
+  "system/lib64/vendor.qti.hardware.display.mapper@3.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "caa92fcb2077d3783adb262a98983a90d1d2f05fb6d7082180fc9a7ea49f065f",
+    "bytes": 100248
+  },
+  "system/lib64/vendor.qti.hardware.display.mapper@4.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "5aeb2ad31e48b41ca43620abde18e3220e6fc690f93a47ca9d55eb1c6b1fa39e",
+    "bytes": 113920
+  },
+  "system/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "94d18c2d8a4f5a3843de8063e33bb1866431f1582905ddd5e9c5bcf606331ea9",
+    "bytes": 134976
+  },
+  "system/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "875d8845600781c7a940025eed96bed7db9efac2151982d59310d3046f4574fe",
+    "bytes": 122512
+  },
+  "system/lib64/vendor.qti.hardware.tui_comm@1.0.so": {
+    "source": "Reno stock recovery:system/lib64/vendor.qti.hardware.tui_comm@1.0.so",
+    "sha256": "284c2d1603c2fb511f45ad5005f2a13260d9372f7ff0514305fee07eba05beb8",
+    "bytes": 141984
+  },
+  "vendor/firmware/a630_gmu.bin": {
+    "source": "Reno stock dump:vendor/firmware/a630_gmu.bin",
+    "sha256": "b07f90299ff2ae33948fcfd6ed67f53fbd287b5bf85ff2d43db11d4d32c1621f",
+    "bytes": 32768
+  },
+  "vendor/firmware/a630_sqe.fw": {
+    "source": "Reno stock dump:vendor/firmware/a630_sqe.fw",
+    "sha256": "a0e1b583f620fabe32729ce367959d1960638663244d7d0cfc21b9a5215a018b",
+    "bytes": 32304
+  },
+  "vendor/firmware/a640_gmu.bin": {
+    "source": "Reno stock dump:vendor/firmware/a640_gmu.bin",
+    "sha256": "3ff0c02708bbe78641db887fa62f3a7f9337934d0c2ce0b961ef7c43172591d2",
+    "bytes": 37680
+  },
+  "vendor/firmware/a640_zap.b00": {
+    "source": "Reno stock dump:vendor/firmware/a640_zap.b00",
+    "sha256": "c9e39868fb6edcc30fc3574657f10dd1dfe22c9cd79e53de213a69703582091f",
+    "bytes": 148
+  },
+  "vendor/firmware/a640_zap.b01": {
+    "source": "Reno stock dump:vendor/firmware/a640_zap.b01",
+    "sha256": "f761fa3921bb06839ba14ca97e6627ac16b9ba06d386ad5d4717cc116a3983b8",
+    "bytes": 6712
+  },
+  "vendor/firmware/a640_zap.b02": {
+    "source": "Reno stock dump:vendor/firmware/a640_zap.b02",
+    "sha256": "e24a4f483b71ea19715910f01e1abf94280756df731cad05df48fd7714e34198",
+    "bytes": 1968
+  },
+  "vendor/firmware/a640_zap.elf": {
+    "source": "Reno stock dump:vendor/firmware/a640_zap.elf",
+    "sha256": "6540ff1f19c453fcecc99d40f0137d95b0c8afcc9a57e4cc906d0d21c9f958ca",
+    "bytes": 14256
+  },
+  "vendor/firmware/a640_zap.mdt": {
+    "source": "Reno stock dump:vendor/firmware/a640_zap.mdt",
+    "sha256": "61d75ad29f8c740d58176e67e0a77f1390fdeb212e357a1bbc0a67aac86ed43d",
+    "bytes": 6860
+  },
+  "vendor/lib64/egl/eglSubDriverAndroid.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "c712e186c8eeb99ce889386fe6e6654f34b5e45817a4604040d63ff22118c119",
+    "bytes": 71744
+  },
+  "vendor/lib64/egl/libEGL_adreno.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "4526aca478194f770c4a85e769127d7c5b8be71a96acd77fed954dd6f90c46e1",
+    "bytes": 39864
+  },
+  "vendor/lib64/egl/libGLESv1_CM_adreno.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "cdb6b819455201a2dbc9f13b28d1d2665417447cdd0268cfd31230629203d6ff",
+    "bytes": 233824
+  },
+  "vendor/lib64/egl/libGLESv2_adreno.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "5d0a617c14680ea996214a03ff4e8eb576aed2d9d4151ebdda9df6228c0de69e",
+    "bytes": 4128544
+  },
+  "vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so": {
+    "source": "Reno stock dump:vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so",
+    "sha256": "73dab5bff45b97cf3e8fe87583adb7135fde715de05d1ea5d8c97e89dbbef087",
+    "bytes": 37864
+  },
+  "vendor/lib64/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "b5d6c5175941a7ccea2f307ad9c850bd0c2e82f6ebea2a3d0e3804779d10b204",
+    "bytes": 48272
+  },
+  "vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "b2fa6385d70c961c7c52e644b2bc4dbc271daaa212d7c9e601ff60677fee3c79",
+    "bytes": 86528
+  },
+  "vendor/lib64/hw/gralloc.msmnile.so": {
+    "source": "Guacamole AERA graphics baseline",
+    "sha256": "a07984b01000888bd25fc81941caebc6ef50d1f86bb2bbb4f7eebfeebf9f4a4b",
+    "bytes": 42424
+  },
+  "system/etc/firmware/100ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:100ms_RTP_166Hz.bin",
+    "sha256": "22a8636f39428098cb325183a17276b5866d98fa524b0d7e3d94024b16667e7b",
+    "bytes": 2393
+  },
+  "system/etc/firmware/100ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:100ms_RTP_170Hz.bin",
+    "sha256": "94b2d17ea2f5aa38f576cb68c3ada226fbd302f9fb4067a784af2b20080c582d",
+    "bytes": 2393
+  },
+  "system/etc/firmware/100ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:100ms_RTP_174Hz.bin",
+    "sha256": "69469c82848feb3bde6a4818728143943f1fd50c0d033f1807891eada9ef54a8",
+    "bytes": 2393
+  },
+  "system/etc/firmware/120ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:120ms_RTP_166Hz.bin",
+    "sha256": "692d8aaa20b8b80d069a5b33c7eb5f94d2051b327a54429eaf6c39dcf23a0f10",
+    "bytes": 2962
+  },
+  "system/etc/firmware/120ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:120ms_RTP_170Hz.bin",
+    "sha256": "1990e4833afeffe888294180e865ed64c719f083358265905fa5bc2619e0807a",
+    "bytes": 2962
+  },
+  "system/etc/firmware/120ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:120ms_RTP_174Hz.bin",
+    "sha256": "0483e92fb26dcea68e2bb38f5132438e2cbdd6ccb7e107f0bdcfe14744a877ca",
+    "bytes": 2962
+  },
+  "system/etc/firmware/140ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:140ms_RTP_166Hz.bin",
+    "sha256": "1c4a9551ac124866091e6269e55cb748c15ba89b28c5eccd2ad278bcd0c30ca2",
+    "bytes": 3382
+  },
+  "system/etc/firmware/140ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:140ms_RTP_170Hz.bin",
+    "sha256": "a2b108f2e6a22ea556cd5d4feaa28dfae6ad00547db07a973e32ac6584100cfc",
+    "bytes": 3382
+  },
+  "system/etc/firmware/140ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:140ms_RTP_174Hz.bin",
+    "sha256": "6bcd7d6163250adeb880e79c94807b728f97bd0f487a9aa22ae99ee74f0c9d68",
+    "bytes": 3382
+  },
+  "system/etc/firmware/160ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:160ms_RTP_166Hz.bin",
+    "sha256": "32bd130e5a44dca6c1a07c493497d133ed3281e57076ee5d83efd8b220e61923",
+    "bytes": 3946
+  },
+  "system/etc/firmware/160ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:160ms_RTP_170Hz.bin",
+    "sha256": "86f49f22dded5059718e7fa040cc13bb729161e2c5312e19ce66df2396a35957",
+    "bytes": 3946
+  },
+  "system/etc/firmware/160ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:160ms_RTP_174Hz.bin",
+    "sha256": "70cc1a5afe9ac18d1f24f81fa4b75424b4d3363bb39e5af97d6ac19e5eb59543",
+    "bytes": 3946
+  },
+  "system/etc/firmware/180ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:180ms_RTP_166Hz.bin",
+    "sha256": "b1909bbaef5559cc4db53da29af4489fa654cf9a07e56ecc14e36ac493653302",
+    "bytes": 4372
+  },
+  "system/etc/firmware/180ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:180ms_RTP_170Hz.bin",
+    "sha256": "4dd9e97110f42cebd46502a3f6eadf4c8ae66021c0efeddbdf4e49bd68b1d9c1",
+    "bytes": 4372
+  },
+  "system/etc/firmware/180ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:180ms_RTP_174Hz.bin",
+    "sha256": "7b3cb77ee28aab67ee15f5a09a259770127fc1d029ba32544c88a5b523b079c0",
+    "bytes": 4372
+  },
+  "system/etc/firmware/200ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:200ms_RTP_166Hz.bin",
+    "sha256": "7bca413ef33597ff9b902fb6dda17ba740e87e866dab877e8cab6d4972cea8d4",
+    "bytes": 4795
+  },
+  "system/etc/firmware/200ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:200ms_RTP_170Hz.bin",
+    "sha256": "c661000f0f37c8c3bbc334ac80e5e6d614aa789d3262ec227c17aabb354c3a56",
+    "bytes": 4795
+  },
+  "system/etc/firmware/200ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:200ms_RTP_174Hz.bin",
+    "sha256": "a5671146f88b306ddbb7ec65cd2e3e026a6b2c9ff8fc91f3020b9992a1975ca1",
+    "bytes": 4795
+  },
+  "system/etc/firmware/20ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:20ms_RTP_166Hz.bin",
+    "sha256": "439f3cae133a0c4b8c1a1384068462b044c2d4489f3cec45492e33f96563b368",
+    "bytes": 359
+  },
+  "system/etc/firmware/20ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:20ms_RTP_170Hz.bin",
+    "sha256": "f9b68b4dadff1804c14c010d42654814b468d51b26bea73edc235a7ef60905ab",
+    "bytes": 359
+  },
+  "system/etc/firmware/20ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:20ms_RTP_174Hz.bin",
+    "sha256": "88150b9646c6d0eb5f1145d314a2ee7dc035a3dbc1b2d2c021f453d6af4b891a",
+    "bytes": 359
+  },
+  "system/etc/firmware/220ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:220ms_RTP_166Hz.bin",
+    "sha256": "8b5d25aa5c59cd3ba003aa66272e352fdc29a5b83485ad5f0f7fc38752267652",
+    "bytes": 5360
+  },
+  "system/etc/firmware/220ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:220ms_RTP_170Hz.bin",
+    "sha256": "2bacb1ed56f61f0de86a255a5de45226ecdfa4ad40220d6f9ff01289a9275555",
+    "bytes": 5360
+  },
+  "system/etc/firmware/220ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:220ms_RTP_174Hz.bin",
+    "sha256": "e13882bfe7debfa4296a5f7fde183549c8a97b8da789ce284744f3e2f0da376c",
+    "bytes": 5360
+  },
+  "system/etc/firmware/240ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:240ms_RTP_166Hz.bin",
+    "sha256": "4315bd57f3c7f65f248771894426a84d2a239c38ef40d9c36d330a37a1ed40d6",
+    "bytes": 5786
+  },
+  "system/etc/firmware/240ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:240ms_RTP_170Hz.bin",
+    "sha256": "38538f3564c593fbba5f2c8fb5b1fe8896508b49c9b0a972191baea02e22f426",
+    "bytes": 5786
+  },
+  "system/etc/firmware/240ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:240ms_RTP_174Hz.bin",
+    "sha256": "d002845a144f9d5b8506b8c929f3bf4ba29c886d112fce4498063b891e888ddc",
+    "bytes": 5786
+  },
+  "system/etc/firmware/260ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:260ms_RTP_166Hz.bin",
+    "sha256": "a6627d0032472532369c5c8396b832383b9e70be3d2a97f3f864fb04ba4cc38a",
+    "bytes": 6350
+  },
+  "system/etc/firmware/260ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:260ms_RTP_170Hz.bin",
+    "sha256": "1217496d183873eb2767a61025efa7d4a1015c63a747d07d974a2a9e49c19aac",
+    "bytes": 6350
+  },
+  "system/etc/firmware/260ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:260ms_RTP_174Hz.bin",
+    "sha256": "7c5f0ae6d95b72586f64097959241beb904a138f402a11391d52108124eac8f9",
+    "bytes": 6350
+  },
+  "system/etc/firmware/280ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:280ms_RTP_166Hz.bin",
+    "sha256": "b42cdfd722e7d0525747532fe2d9bad457cb8b5d30704a0ce333a6774e98a009",
+    "bytes": 6772
+  },
+  "system/etc/firmware/280ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:280ms_RTP_170Hz.bin",
+    "sha256": "503b33790210756daa09c322816702645dadbc361ccf1e42b1f74fbbe978f7cc",
+    "bytes": 6772
+  },
+  "system/etc/firmware/280ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:280ms_RTP_174Hz.bin",
+    "sha256": "b6abf5bb29eb1fd6304f4c26496633e04434a65d07ab20aa506b53b76d13a671",
+    "bytes": 6772
+  },
+  "system/etc/firmware/300ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:300ms_RTP_166Hz.bin",
+    "sha256": "6aecbe0bf19fbd7e8422d6ea845bcbddc8a43c0f0abe6150b9c9fdc34e56f447",
+    "bytes": 7198
+  },
+  "system/etc/firmware/300ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:300ms_RTP_170Hz.bin",
+    "sha256": "db896db80299c49fea11934cda8ec3bd1b62fcdb41e9a51de4c7034b93942bf2",
+    "bytes": 7198
+  },
+  "system/etc/firmware/300ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:300ms_RTP_174Hz.bin",
+    "sha256": "c31185d48ab2278fdfbbc88d1ae998aa9080caa4e6efe404ef08cf1dc93460dc",
+    "bytes": 7198
+  },
+  "system/etc/firmware/320ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:320ms_RTP_166Hz.bin",
+    "sha256": "e6a1358298c08f2471b2227dac4e3daad8e85bb57647a1dc15c39b75be034179",
+    "bytes": 7763
+  },
+  "system/etc/firmware/320ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:320ms_RTP_170Hz.bin",
+    "sha256": "3c1bc07d8a6fafedd6591c1ec77fe0e8d3079a307719fae66b087d979f4224d2",
+    "bytes": 7763
+  },
+  "system/etc/firmware/320ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:320ms_RTP_174Hz.bin",
+    "sha256": "25b310e3256b3221e5902f41a99f13227810bd2d841daeba16760754f0e0e367",
+    "bytes": 7763
+  },
+  "system/etc/firmware/340ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:340ms_RTP_166Hz.bin",
+    "sha256": "0dedf6076f4a69796f2de7ece255880825371a191a72e1689e0627175332764e",
+    "bytes": 8184
+  },
+  "system/etc/firmware/340ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:340ms_RTP_170Hz.bin",
+    "sha256": "35a9e853df29b828d2167c284d89e2761095ff0147de28e7db8be861401eaabf",
+    "bytes": 8184
+  },
+  "system/etc/firmware/340ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:340ms_RTP_174Hz.bin",
+    "sha256": "916f6ce24dd45f9593e36e15667ef8ea33d0a31dc731dbac3a7a4385fbf17e3a",
+    "bytes": 8184
+  },
+  "system/etc/firmware/360ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:360ms_RTP_166Hz.bin",
+    "sha256": "32e107832b20c142bf64ec21c9d873434076ef8d82b06d327fd87e7986144562",
+    "bytes": 8751
+  },
+  "system/etc/firmware/360ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:360ms_RTP_170Hz.bin",
+    "sha256": "fd5eb7c2652b07cbab263750c5604aead2eda6cb4757c8e6fa9b4e70a256e039",
+    "bytes": 8751
+  },
+  "system/etc/firmware/360ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:360ms_RTP_174Hz.bin",
+    "sha256": "c5c957f878677fc947e4d77160c5973c08998f55b33f840d53e3eee82e179e35",
+    "bytes": 8751
+  },
+  "system/etc/firmware/380ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:380ms_RTP_166Hz.bin",
+    "sha256": "d6b1b1a4cceffe18d19b39eef2286742010fcbcfb336abb8cbb26d7f0dd6fcd5",
+    "bytes": 9177
+  },
+  "system/etc/firmware/380ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:380ms_RTP_170Hz.bin",
+    "sha256": "12e6534e83f103c508233a038cc0f2e4abfaea8e50f56e515314e91c4eaf9522",
+    "bytes": 9177
+  },
+  "system/etc/firmware/380ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:380ms_RTP_174Hz.bin",
+    "sha256": "810152ba1d5b0d9fcbea5c7cbf72cfd541c0884cb5f682ad8e278ba31c68dad4",
+    "bytes": 9177
+  },
+  "system/etc/firmware/400ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:400ms_RTP_166Hz.bin",
+    "sha256": "4be3d22c76f55cb62da64dd3247b77880a1104fa45f69d570ae1d269ece82870",
+    "bytes": 9599
+  },
+  "system/etc/firmware/400ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:400ms_RTP_170Hz.bin",
+    "sha256": "a1a0e951a337a25c3c32322de70495092f3e16ac878f54d4860e43fa0591e9b2",
+    "bytes": 9599
+  },
+  "system/etc/firmware/400ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:400ms_RTP_174Hz.bin",
+    "sha256": "1a9ff667852c4004bb4c378c7802c321d7b8d0aa0b922af42ebbc98030dc1564",
+    "bytes": 9599
+  },
+  "system/etc/firmware/40ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:40ms_RTP_166Hz.bin",
+    "sha256": "f68ccdb5b2bcd0ff3eb6119c04a82f13974a8cabdfe8566cf5220dd1d8d92204",
+    "bytes": 985
+  },
+  "system/etc/firmware/40ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:40ms_RTP_170Hz.bin",
+    "sha256": "f1de14505c59a0d91db1f1b2cf7e58a276f949f61946273cefb001d59f780527",
+    "bytes": 985
+  },
+  "system/etc/firmware/40ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:40ms_RTP_174Hz.bin",
+    "sha256": "a56953eef4401a22f36ed6da94e79015d950d762c827237375c8680279a9e5ce",
+    "bytes": 985
+  },
+  "system/etc/firmware/420ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:420ms_RTP_166Hz.bin",
+    "sha256": "9b0618d2a6a2d62869ca4574e617a1dc710f2dc6a5461d1e479caa49d6acd956",
+    "bytes": 10170
+  },
+  "system/etc/firmware/420ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:420ms_RTP_170Hz.bin",
+    "sha256": "0bf97b9f8435b9fd74b65fb2a9570a7b647bf143a0738c7876b2b7ce0bec07a9",
+    "bytes": 10170
+  },
+  "system/etc/firmware/420ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:420ms_RTP_174Hz.bin",
+    "sha256": "6228f0f163850426bcb01641cad78ee9656794c14606e8547a36fe3caccb48c4",
+    "bytes": 10170
+  },
+  "system/etc/firmware/440ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:440ms_RTP_166Hz.bin",
+    "sha256": "a2fb84b8c28bb01c24aa721a090a42f27ce8c487c5e52a506439bc1c161b310f",
+    "bytes": 10589
+  },
+  "system/etc/firmware/440ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:440ms_RTP_170Hz.bin",
+    "sha256": "a317d767befc5f4aae41e7eead08cee996d4ba8f6492e4d4ae285d223cab3ae7",
+    "bytes": 10589
+  },
+  "system/etc/firmware/440ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:440ms_RTP_174Hz.bin",
+    "sha256": "741b4b5e0372c4f02fc85c2685d4e7a1784df39198d27e9a7367bc9d2148d83b",
+    "bytes": 10589
+  },
+  "system/etc/firmware/460ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:460ms_RTP_166Hz.bin",
+    "sha256": "491056faaaefd6918e473f6ff814a41ec6088feb8328875e1ac5b01233f96595",
+    "bytes": 11154
+  },
+  "system/etc/firmware/460ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:460ms_RTP_170Hz.bin",
+    "sha256": "beffc1d6fa21c964a82ef3382f82961f5d4f74f555e5f763658d2c55c40bc6fa",
+    "bytes": 11154
+  },
+  "system/etc/firmware/460ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:460ms_RTP_174Hz.bin",
+    "sha256": "067470fdecf7231986292f69baa19c42f4707570ee3c4bc7a93df236b16d80f8",
+    "bytes": 11154
+  },
+  "system/etc/firmware/480ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:480ms_RTP_166Hz.bin",
+    "sha256": "14543ff2cd601f03e10a2a706a044aee4509070029bafa4c736e8c65682c0d4c",
+    "bytes": 11577
+  },
+  "system/etc/firmware/480ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:480ms_RTP_170Hz.bin",
+    "sha256": "d4956a4fcdaa087cfa6c0b4304c6900e7a8517cd23201d4f0f66f950e08ee47a",
+    "bytes": 11577
+  },
+  "system/etc/firmware/480ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:480ms_RTP_174Hz.bin",
+    "sha256": "1d2a2a1110d249c6e18fffc8224711a5725838c36881eb35c90e357bf167f47b",
+    "bytes": 11577
+  },
+  "system/etc/firmware/500ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:500ms_RTP_166Hz.bin",
+    "sha256": "6ebbe67e406402aaaa7f01f87473c8d7f8a3ab00e2ea10bc517adae208265d36",
+    "bytes": 12001
+  },
+  "system/etc/firmware/500ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:500ms_RTP_170Hz.bin",
+    "sha256": "dae60ab27f21158c3e4bf7826c1101cc2826e6e9dcf917461448b5ba4f8093b6",
+    "bytes": 12001
+  },
+  "system/etc/firmware/500ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:500ms_RTP_174Hz.bin",
+    "sha256": "211083eeb32960fae6718c25a45c77f411c40c35f5290ac75f0241af3d694277",
+    "bytes": 12001
+  },
+  "system/etc/firmware/60ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:60ms_RTP_166Hz.bin",
+    "sha256": "607058d8c1616def05248d32bfd90992107073d34036c85390710cbaaf37c9c7",
+    "bytes": 1548
+  },
+  "system/etc/firmware/60ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:60ms_RTP_170Hz.bin",
+    "sha256": "f734b8340e255d879c536e52b1f5647ed77933375bad904331a4f31908a6b505",
+    "bytes": 1548
+  },
+  "system/etc/firmware/60ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:60ms_RTP_174Hz.bin",
+    "sha256": "22e8926b4037e70ed645739f2ce48759aacf38f67a3906b638083ead320aed48",
+    "bytes": 1548
+  },
+  "system/etc/firmware/80ms_RTP_166Hz.bin": {
+    "source": "Reno stock firmware:80ms_RTP_166Hz.bin",
+    "sha256": "1c81f4d5c2c5def6bd421e504df9a0cadd91cbc05110fbaf11fe86f9507c609c",
+    "bytes": 1979
+  },
+  "system/etc/firmware/80ms_RTP_170Hz.bin": {
+    "source": "Reno stock firmware:80ms_RTP_170Hz.bin",
+    "sha256": "98fb90d52ddf8ce2e5825d057c67be0237d78e6c6df439c2d8fbceff136ab4ff",
+    "bytes": 1979
+  },
+  "system/etc/firmware/80ms_RTP_174Hz.bin": {
+    "source": "Reno stock firmware:80ms_RTP_174Hz.bin",
+    "sha256": "c19adb7ee691c3f90cc267460228c84b458b7d052cf24b6e863c956a77966bc8",
+    "bytes": 1979
+  },
+  "system/etc/firmware/aw8697_About_School_RTP_17.bin": {
+    "source": "Reno stock firmware:aw8697_About_School_RTP_17.bin",
+    "sha256": "412dc4c3660f0f7bdd17a56be3586394ffbb4185fcbe83eb927468800b3c43d9",
+    "bytes": 253806
+  },
+  "system/etc/firmware/aw8697_Appear_channel_RTP_coloros7_123.bin": {
+    "source": "Reno stock firmware:aw8697_Appear_channel_RTP_coloros7_123.bin",
+    "sha256": "c3a3b4aa73a3c120aa25714163b5f67843cea8105492568439f73a3cec9a6c9a",
+    "bytes": 19751
+  },
+  "system/etc/firmware/aw8697_Bliss_RTP_18.bin": {
+    "source": "Reno stock firmware:aw8697_Bliss_RTP_18.bin",
+    "sha256": "ab26db3887f4fb5dadc12eebb54d8dd051491d027959abb356c72871d2a79fa8",
+    "bytes": 859278
+  },
+  "system/etc/firmware/aw8697_Bliss_RTP_coloros7_138.bin": {
+    "source": "Reno stock firmware:aw8697_Bliss_RTP_coloros7_138.bin",
+    "sha256": "284767e727258cecb0c797f87cd38ad7bc0aff60b1b33bf716b9a8d3913ce53b",
+    "bytes": 646247
+  },
+  "system/etc/firmware/aw8697_breath_simulation_RTP_118_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_breath_simulation_RTP_118_166Hz.bin",
+    "sha256": "a7d3e12f717768972770e2fd59c53e1a7deee30bcae11f9cf05f49ca7b40cd86",
+    "bytes": 74546
+  },
+  "system/etc/firmware/aw8697_breath_simulation_RTP_118_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_breath_simulation_RTP_118_170Hz.bin",
+    "sha256": "5d2bf7381c38fd6e53bc25b2cb235f6524a4fd3298714df47b3e1441a401279b",
+    "bytes": 74546
+  },
+  "system/etc/firmware/aw8697_breath_simulation_RTP_118_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_breath_simulation_RTP_118_174Hz.bin",
+    "sha256": "3ba8294f49692059ac5541d5b6e7f190f58fa6e688d959c5edad89d631b03261",
+    "bytes": 74546
+  },
+  "system/etc/firmware/aw8697_Bright_channel_RTP_6.bin": {
+    "source": "Reno stock firmware:aw8697_Bright_channel_RTP_6.bin",
+    "sha256": "5883b2c08ab00853e144c79be0361b3a89cd5dcdb4ed194e15a944187a0d9a9b",
+    "bytes": 67903
+  },
+  "system/etc/firmware/aw8697_Bright_channel_RTP_coloros7_128.bin": {
+    "source": "Reno stock firmware:aw8697_Bright_channel_RTP_coloros7_128.bin",
+    "sha256": "5d8005922ed43d2338c9e1f31f7ee6d7571eaa8c475c55c36896311fd8b77e94",
+    "bytes": 9177
+  },
+  "system/etc/firmware/aw8697_charging_simulation_RTP_108_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_charging_simulation_RTP_108_166Hz.bin",
+    "sha256": "33b792e5d725a558100a3c9e7bae9dc86e65c0accc3c2d8eb8a0143e631b2af1",
+    "bytes": 21226
+  },
+  "system/etc/firmware/aw8697_charging_simulation_RTP_108_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_charging_simulation_RTP_108_170Hz.bin",
+    "sha256": "c53d00e439a9a0720a0f070d2b917ac6c908650ffa7c83a5e27de5ff5e79114b",
+    "bytes": 21226
+  },
+  "system/etc/firmware/aw8697_charging_simulation_RTP_108_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_charging_simulation_RTP_108_174Hz.bin",
+    "sha256": "99846782160fee5eac2a487b86e11220cf64f28ab157540347f287d9ef0a0715",
+    "bytes": 21226
+  },
+  "system/etc/firmware/aw8697_Childhood_RTP_19.bin": {
+    "source": "Reno stock firmware:aw8697_Childhood_RTP_19.bin",
+    "sha256": "6a9399b81aed6b0f917e41953cb7324ce3bc10fdd6190221918b77a37c9d3074",
+    "bytes": 452790
+  },
+  "system/etc/firmware/aw8697_Classical_ring_RTP_coloros7_135.bin": {
+    "source": "Reno stock firmware:aw8697_Classical_ring_RTP_coloros7_135.bin",
+    "sha256": "39c1f2698f084e46f46c51b5315cad4f8535ea39e4a7c59b86e96d0d6e8a99e2",
+    "bytes": 88023
+  },
+  "system/etc/firmware/aw8697_clock_channel_RTP_43.bin": {
+    "source": "Reno stock firmware:aw8697_clock_channel_RTP_43.bin",
+    "sha256": "eb6fee2598478b34892cea6ca59aa14aa51d0ce0b6957291e3e2966c4468e460",
+    "bytes": 95239
+  },
+  "system/etc/firmware/aw8697_clock_channel_RTP_43_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_clock_channel_RTP_43_166Hz.bin",
+    "sha256": "5504e1656572e90387c456a0845e28c2ec3ba4b0c6882dc5c82709d4b80541d4",
+    "bytes": 94718
+  },
+  "system/etc/firmware/aw8697_clock_channel_RTP_43_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_clock_channel_RTP_43_170Hz.bin",
+    "sha256": "8ccf5909b30eae64050dc2fead4ace2308e877877e1c27185d99f4f7b3c846b6",
+    "bytes": 94718
+  },
+  "system/etc/firmware/aw8697_clock_channel_RTP_43_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_clock_channel_RTP_43_174Hz.bin",
+    "sha256": "713f634913f4ad330b9b683415b066d0d0692c34f17a262e01909e3dbf4995e6",
+    "bytes": 94718
+  },
+  "system/etc/firmware/aw8697_Commuting_RTP_20.bin": {
+    "source": "Reno stock firmware:aw8697_Commuting_RTP_20.bin",
+    "sha256": "01574577dcbf69865ad8ce68295ce58096db8733fa2cdf66905cea864e0490bd",
+    "bytes": 646610
+  },
+  "system/etc/firmware/aw8697_cut_channel_RTP_42.bin": {
+    "source": "Reno stock firmware:aw8697_cut_channel_RTP_42.bin",
+    "sha256": "d0b83b82152c4f393d923fca415285f5d68f66ca558803042a2baf047a79fde6",
+    "bytes": 49953
+  },
+  "system/etc/firmware/aw8697_cut_channel_RTP_42_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_cut_channel_RTP_42_166Hz.bin",
+    "sha256": "a598d0b737641f935d7fd16aaf953b7019825dd7d3c68cc7f7bc36f205e3f610",
+    "bytes": 50757
+  },
+  "system/etc/firmware/aw8697_cut_channel_RTP_42_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_cut_channel_RTP_42_170Hz.bin",
+    "sha256": "f729d39e7a9d8f03b55c8dae6fea63560b62abe3089e1dc3adf504c01fa81eb2",
+    "bytes": 50757
+  },
+  "system/etc/firmware/aw8697_cut_channel_RTP_42_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_cut_channel_RTP_42_174Hz.bin",
+    "sha256": "fe6372b533bbafa0ebaab62f4583971fbbff0960fcf38fa6ca827a8deb075488",
+    "bytes": 50757
+  },
+  "system/etc/firmware/aw8697_desk_54_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_desk_54_166Hz.bin",
+    "sha256": "ec78e1fc6b5ad682e905ae4701c61ff16ca1be375cce230976018c5a342f1916",
+    "bytes": 3400
+  },
+  "system/etc/firmware/aw8697_desk_54_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_desk_54_170Hz.bin",
+    "sha256": "74413993e888097c072ad87ee94805a06c9f46bf9352bb7c6053c077d74addfa",
+    "bytes": 3400
+  },
+  "system/etc/firmware/aw8697_desk_54_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_desk_54_174Hz.bin",
+    "sha256": "218098f416de85eff7024b1f0b6ed3c31a7f58d322f180a0d7e050fa03b6bd1d",
+    "bytes": 3400
+  },
+  "system/etc/firmware/aw8697_desk_7_RTP_54.bin": {
+    "source": "Reno stock firmware:aw8697_desk_7_RTP_54.bin",
+    "sha256": "220133bd749837d801dd611e82527b7b0f847609ec543695056f54a514e77b1a",
+    "bytes": 3274
+  },
+  "system/etc/firmware/aw8697_Dream_RTP_21.bin": {
+    "source": "Reno stock firmware:aw8697_Dream_RTP_21.bin",
+    "sha256": "37fee49e0c112352982d5ae27aa3dd217b506354ba4bfc18bb817e5872382172",
+    "bytes": 511046
+  },
+  "system/etc/firmware/aw8697_Dream_RTP_coloros7_139.bin": {
+    "source": "Reno stock firmware:aw8697_Dream_RTP_coloros7_139.bin",
+    "sha256": "b9a0add58a4a38b8da3579975e94eadce1643d653be198b6e2022d6ceb593637",
+    "bytes": 480441
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect1_RTP_110_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect1_RTP_110_166Hz.bin",
+    "sha256": "c1b1f648e02b544e4df6dc9e4464fecc335410278e4da36b498d110ee9ab6941",
+    "bytes": 19320
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect1_RTP_110_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect1_RTP_110_170Hz.bin",
+    "sha256": "f1b886901d57dab452da9b7f29a04d8410ff1f534507f9db8ae36671cd0413d7",
+    "bytes": 19320
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect1_RTP_110_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect1_RTP_110_174Hz.bin",
+    "sha256": "2b7b8d80cf0b6e3551705df82450b467c2d758f76c38d5acf42b213940cfa42b",
+    "bytes": 19320
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect2_RTP_111_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect2_RTP_111_166Hz.bin",
+    "sha256": "b388d9302bcd1587e70ee8764ad8986b3e12154ecebd7d181644ad78c8fae112",
+    "bytes": 6798
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect2_RTP_111_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect2_RTP_111_170Hz.bin",
+    "sha256": "cc787901cc9bfbef9ae73805f14a5c9343c1fe7567d8393ffbea2a089d596336",
+    "bytes": 6798
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect2_RTP_111_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect2_RTP_111_174Hz.bin",
+    "sha256": "ff6e270b7040dba953c47a0e4873b97b8d678417cdb257940d157f0b98c72606",
+    "bytes": 6798
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect3_RTP_112_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect3_RTP_112_166Hz.bin",
+    "sha256": "33ded600a08d0f75b9cd2d5c45bb837cbe3ea6e6169e461238863d41a874153d",
+    "bytes": 16716
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect3_RTP_112_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect3_RTP_112_170Hz.bin",
+    "sha256": "a1ec1159e2c875d013ee6cab0c43c77ef21ab18d0784add3f50d8cbdb16c43f0",
+    "bytes": 16716
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect3_RTP_112_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect3_RTP_112_174Hz.bin",
+    "sha256": "8f0b3fe2f615c9092f328e079ca213eec5546d6e9c9b459e04e4fd96868418a0",
+    "bytes": 16716
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect4_RTP_113_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect4_RTP_113_166Hz.bin",
+    "sha256": "ae5bb55f2ac985ed717f8f59577e7b83a1d18473a8f0cd84e84dfe93dd8d1e99",
+    "bytes": 12778
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect4_RTP_113_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect4_RTP_113_170Hz.bin",
+    "sha256": "650f201bcb2ed47f0d9deb66944f242414446cf1c36c5676c7ef104d0ebf2af1",
+    "bytes": 12778
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect4_RTP_113_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect4_RTP_113_174Hz.bin",
+    "sha256": "fedc98b8c491536dde60a5c75f0cfdb4d31fee1a68d96da7772efb3c85e2c0de",
+    "bytes": 12778
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect5_RTP_114_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect5_RTP_114_166Hz.bin",
+    "sha256": "8e2150174e710219b136b07d646fcc99e82d6e8f87ff47eb68bb9a24d2a846ba",
+    "bytes": 12072
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect5_RTP_114_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect5_RTP_114_170Hz.bin",
+    "sha256": "bc76bf0a81095e8a4011afa7f992c092498c7ec68334ca3903acab4b68f661fe",
+    "bytes": 12072
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect5_RTP_114_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect5_RTP_114_174Hz.bin",
+    "sha256": "9951d2747c89d27f14848c758ca56ff3ec5289679b63ed3f38a242e0ca980875",
+    "bytes": 12072
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect6_RTP_115_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect6_RTP_115_166Hz.bin",
+    "sha256": "b7b4f52662aa424643bc093e4fd0acf7aca176408cfba34d6a87cd94c4e0cd8d",
+    "bytes": 12782
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect6_RTP_115_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect6_RTP_115_170Hz.bin",
+    "sha256": "8a552c710d532462c2aeeb1956d74e18734c4115d20226e47bc10f0710bce1ea",
+    "bytes": 12782
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect6_RTP_115_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect6_RTP_115_174Hz.bin",
+    "sha256": "6debb4f9345a0fd207c47d8b38783f3803b1ef49fe10a077eede327268b46283",
+    "bytes": 12782
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect7_RTP_116_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect7_RTP_116_166Hz.bin",
+    "sha256": "15de33688626a9a813e050df29b2712e5d6e2aa1aba252d54efdbf09aa7a4340",
+    "bytes": 7354
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect7_RTP_116_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect7_RTP_116_170Hz.bin",
+    "sha256": "cd46acc64a1fe3b684f682c358c4a49504b5d32ccdcacdc4bf89730c8cae8687",
+    "bytes": 7354
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect7_RTP_116_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect7_RTP_116_174Hz.bin",
+    "sha256": "0e68109db506a70c2bf52007f7c20224b3bd773d14c2e349a3f560f8ab5c0b62",
+    "bytes": 7354
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect8_RTP_117_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect8_RTP_117_166Hz.bin",
+    "sha256": "fb19fa0a3f59d200fca89beea5e2f3e4ad765f601284d657611c9832e7e2c2fa",
+    "bytes": 11154
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect8_RTP_117_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect8_RTP_117_170Hz.bin",
+    "sha256": "019396201761e0b1d13517b2f9e05aa787bb18980d3d8d40abf571e0d7e48142",
+    "bytes": 11154
+  },
+  "system/etc/firmware/aw8697_fingerprint_effect8_RTP_117_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_fingerprint_effect8_RTP_117_174Hz.bin",
+    "sha256": "1a5a7dec5eaee0596f0a554ca9f3f3c1207d1a05ec30674e7648557b97071d42",
+    "bytes": 11154
+  },
+  "system/etc/firmware/aw8697_Firefly_RTP_22.bin": {
+    "source": "Reno stock firmware:aw8697_Firefly_RTP_22.bin",
+    "sha256": "ce0e5a2bf66db4eca8cf22eae55f69ac5188c28e7063f04061a357625b8e5e95",
+    "bytes": 286391
+  },
+  "system/etc/firmware/aw8697_Fun_channel_RTP_7.bin": {
+    "source": "Reno stock firmware:aw8697_Fun_channel_RTP_7.bin",
+    "sha256": "f9202162474c046513b1432dc54fe75b23b9e7389c0f500d3279d2da7412d21b",
+    "bytes": 33081
+  },
+  "system/etc/firmware/aw8697_Fun_channel_RTP_coloros7_129.bin": {
+    "source": "Reno stock firmware:aw8697_Fun_channel_RTP_coloros7_129.bin",
+    "sha256": "7a540e354d679044fb984d86d6e3245490b98892633cedc9a6f500c5f65a5670",
+    "bytes": 20796
+  },
+  "system/etc/firmware/aw8697_Gathering_RTP_23.bin": {
+    "source": "Reno stock firmware:aw8697_Gathering_RTP_23.bin",
+    "sha256": "046f5221d7911d9081eccd0fdcc66a1ab3dd326cb7885e1c5302a08548138823",
+    "bytes": 472896
+  },
+  "system/etc/firmware/aw8697_Gaze_RTP_24.bin": {
+    "source": "Reno stock firmware:aw8697_Gaze_RTP_24.bin",
+    "sha256": "445e4d9e826bdfa3ac3564ece47d6c2bd7e7701ae8d555ba72d923857ae73d7f",
+    "bytes": 324975
+  },
+  "system/etc/firmware/aw8697_Glittering_channel_RTP_8.bin": {
+    "source": "Reno stock firmware:aw8697_Glittering_channel_RTP_8.bin",
+    "sha256": "806b46c759c74971aa4de5e7f3718381fef04dd4f14545d3d34b74d1724f238a",
+    "bytes": 52175
+  },
+  "system/etc/firmware/aw8697_Glittering_channel_RTP_coloros7_130.bin": {
+    "source": "Reno stock firmware:aw8697_Glittering_channel_RTP_coloros7_130.bin",
+    "sha256": "e246891e80dacb0077a6c72e7f4379801f0b776d82bfe5003da8d2ca4f950c66",
+    "bytes": 46749
+  },
+  "system/etc/firmware/aw8697_Granules_channel_RTP_9.bin": {
+    "source": "Reno stock firmware:aw8697_Granules_channel_RTP_9.bin",
+    "sha256": "4c920db8b10634d2b21752f44feb59ae5a01220d97832422b4568436f9b5a489",
+    "bytes": 57295
+  },
+  "system/etc/firmware/aw8697_haptic.bin": {
+    "source": "Reno stock firmware:aw8697_haptic.bin",
+    "sha256": "9bde39eb8d2ca1688efb046d735f86c2a2c8315a7feee28befb3667d0c9209b7",
+    "bytes": 5804
+  },
+  "system/etc/firmware/aw8697_haptic_166.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_166.bin",
+    "sha256": "832a5bdbe467b31571047c87caeb725230b4a188350ae02ac997237d9a84cdbe",
+    "bytes": 6006
+  },
+  "system/etc/firmware/aw8697_haptic_168.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_168.bin",
+    "sha256": "bc6e953ad587e1a30d254119fc36c143dc8f906a7fbd9e19d8a280b5b713776d",
+    "bytes": 5961
+  },
+  "system/etc/firmware/aw8697_haptic_170.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_170.bin",
+    "sha256": "c77f9450350bd0036674c67cea62fd12784fe00aba5bc9e01f3411782fac57db",
+    "bytes": 5852
+  },
+  "system/etc/firmware/aw8697_haptic_172.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_172.bin",
+    "sha256": "e24da6706ac1ac1b53791106909ee13c3c9eaa4a84e191b1887909c1a2505b0d",
+    "bytes": 5977
+  },
+  "system/etc/firmware/aw8697_haptic_174.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_174.bin",
+    "sha256": "40f5f82cdad98bfedcba87724c3605383d51fdbaa6d652ec248f73f8dea20c05",
+    "bytes": 5940
+  },
+  "system/etc/firmware/aw8697_haptic_19081.bin": {
+    "source": "Reno stock firmware:aw8697_haptic_19081.bin",
+    "sha256": "82c507a2bff3f6bf9d6d9def60a6bc34bc252d4cf4a35c056271289cf6bdb4f3",
+    "bytes": 6131
+  },
+  "system/etc/firmware/aw8697_Harp_channel_RTP_10.bin": {
+    "source": "Reno stock firmware:aw8697_Harp_channel_RTP_10.bin",
+    "sha256": "50096c7695948d917b14e1040affa8ebadfb823167f84971934fb62ac9d0520a",
+    "bytes": 74538
+  },
+  "system/etc/firmware/aw8697_Harp_channel_RTP_coloros7_131.bin": {
+    "source": "Reno stock firmware:aw8697_Harp_channel_RTP_coloros7_131.bin",
+    "sha256": "7d96ddb8341ea47e4eaa84d4f968ea5ade9a9a5dc2b38531646f833983b854b7",
+    "bytes": 46281
+  },
+  "system/etc/firmware/aw8697_Hearty_channel_RTP_1.bin": {
+    "source": "Reno stock firmware:aw8697_Hearty_channel_RTP_1.bin",
+    "sha256": "fe9148ce75138afa4127046a1c7cc649a88a2b71030578524c17b2d3b7aeaab9",
+    "bytes": 35090
+  },
+  "system/etc/firmware/aw8697_high_temp_high_humidity_channel_RTP_51.bin": {
+    "source": "Reno stock firmware:aw8697_high_temp_high_humidity_channel_RTP_51.bin",
+    "sha256": "ad5d1d05c0bb7ae0fafa6627eb59b26e0241cdf4f255b395bd0f8913cbbc09b3",
+    "bytes": 28570
+  },
+  "system/etc/firmware/aw8697_honor_fisrt_kill_RTP_60.bin": {
+    "source": "Reno stock firmware:aw8697_honor_fisrt_kill_RTP_60.bin",
+    "sha256": "f4e0d2ae068824fcb8660e73399f877e1c060c1ba104f587465f5aadaec25b7a",
+    "bytes": 3903
+  },
+  "system/etc/firmware/aw8697_honor_five_kill_RTP_64.bin": {
+    "source": "Reno stock firmware:aw8697_honor_five_kill_RTP_64.bin",
+    "sha256": "64103b70eb3b203b87fbd09674e896d693eb3113b4e019d8dcf048ee382b8e12",
+    "bytes": 17468
+  },
+  "system/etc/firmware/aw8697_honor_four_continu_kill_RTP_66.bin": {
+    "source": "Reno stock firmware:aw8697_honor_four_continu_kill_RTP_66.bin",
+    "sha256": "5e5f2fad6de1047d38955ff9412c736e833febefd20692ed1f3432e4fae09dfb",
+    "bytes": 9639
+  },
+  "system/etc/firmware/aw8697_honor_four_kill_RTP_63.bin": {
+    "source": "Reno stock firmware:aw8697_honor_four_kill_RTP_63.bin",
+    "sha256": "8ca6a0a542123e283e0a75a627895c09a8fb9d549525a160e18f126925ab29bd",
+    "bytes": 8990
+  },
+  "system/etc/firmware/aw8697_honor_lengendary_RTP_69.bin": {
+    "source": "Reno stock firmware:aw8697_honor_lengendary_RTP_69.bin",
+    "sha256": "062413601031f43377a08d0cf7dad5c274e7c670f8b42bc8fb7cf43394c1221d",
+    "bytes": 20683
+  },
+  "system/etc/firmware/aw8697_honor_thousands_kill_RTP_68.bin": {
+    "source": "Reno stock firmware:aw8697_honor_thousands_kill_RTP_68.bin",
+    "sha256": "00abee714ca42d393a82dd0d35c2ffee704f38c0c1c4fba6c784764e060c5d38",
+    "bytes": 13545
+  },
+  "system/etc/firmware/aw8697_honor_three_continu_kill_RTP_65.bin": {
+    "source": "Reno stock firmware:aw8697_honor_three_continu_kill_RTP_65.bin",
+    "sha256": "e59501aa32c0481a6e225007a5184115db31ee881caae9ef4555501f0b24c087",
+    "bytes": 10728
+  },
+  "system/etc/firmware/aw8697_honor_three_kill_RTP_62.bin": {
+    "source": "Reno stock firmware:aw8697_honor_three_kill_RTP_62.bin",
+    "sha256": "5278c8b213320ab1046acf6e40394e6c5a9b6dfde701eb4cbe1e22382b42a21a",
+    "bytes": 8016
+  },
+  "system/etc/firmware/aw8697_honor_two_kill_RTP_61.bin": {
+    "source": "Reno stock firmware:aw8697_honor_two_kill_RTP_61.bin",
+    "sha256": "daf9a7f0f77691bd1d842c7edbbbee1722526912f45e8d1a06770afe04b8c83e",
+    "bytes": 3563
+  },
+  "system/etc/firmware/aw8697_honor_unstoppable_RTP_67.bin": {
+    "source": "Reno stock firmware:aw8697_honor_unstoppable_RTP_67.bin",
+    "sha256": "828def46157b2db6a2195b99b05758b8a5b0e8488fbe561fbb0354ab99dccbec",
+    "bytes": 12514
+  },
+  "system/etc/firmware/aw8697_Impression_channel_RTP_11.bin": {
+    "source": "Reno stock firmware:aw8697_Impression_channel_RTP_11.bin",
+    "sha256": "321134fcdb2a9ee94c39df4a8fd0811d8940bbf47e1125c7859235e03d872a19",
+    "bytes": 36766
+  },
+  "system/etc/firmware/aw8697_Ingenious_channel_RTP_12.bin": {
+    "source": "Reno stock firmware:aw8697_Ingenious_channel_RTP_12.bin",
+    "sha256": "2409b2316c6b0d7314fe17ed3241beaf3b43bbf69f8923ae589c76d3f0ecd736",
+    "bytes": 22048
+  },
+  "system/etc/firmware/aw8697_Instant_channel_RTP_2.bin": {
+    "source": "Reno stock firmware:aw8697_Instant_channel_RTP_2.bin",
+    "sha256": "9a33bc37fea7ead3f967a2cdf9f83bef676c0215d126c268fe41b5c220e000a9",
+    "bytes": 25071
+  },
+  "system/etc/firmware/aw8697_Joy_channel_RTP_13.bin": {
+    "source": "Reno stock firmware:aw8697_Joy_channel_RTP_13.bin",
+    "sha256": "a64aa640be052aedad89f2549e98e198d2e6caf1b2fa50b426bb04da326062b9",
+    "bytes": 45103
+  },
+  "system/etc/firmware/aw8697_Joy_channel_RTP_coloros7_141.bin": {
+    "source": "Reno stock firmware:aw8697_Joy_channel_RTP_coloros7_141.bin",
+    "sha256": "fe8fa7876f89e699b48e34b2d6d387c41190f64b08da62361a269fdc6a0ec3f1",
+    "bytes": 501254
+  },
+  "system/etc/firmware/aw8697_kill_program_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_kill_program_166Hz.bin",
+    "sha256": "6b6f7820541e15dbb951f1e57241ce8b6e5038daee3f19efc36d38392491b307",
+    "bytes": 1416
+  },
+  "system/etc/firmware/aw8697_kill_program_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_kill_program_170Hz.bin",
+    "sha256": "afad93bcb623ad4a68b90336a46720df2d96a074c27af6b0d85be34620a83b90",
+    "bytes": 1416
+  },
+  "system/etc/firmware/aw8697_kill_program_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_kill_program_174Hz.bin",
+    "sha256": "7a01835d713fc9794fd6e39c1fc950e97b7b6eda5ff33c8109d2d65b4d408bf4",
+    "bytes": 1416
+  },
+  "system/etc/firmware/aw8697_kill_program_RTP_47.bin": {
+    "source": "Reno stock firmware:aw8697_kill_program_RTP_47.bin",
+    "sha256": "0fe493ac46089f745ac51d5e008898dc2576278572709c3a2583ac52e198ec7a",
+    "bytes": 5318
+  },
+  "system/etc/firmware/aw8697_Lakeside_RTP_25.bin": {
+    "source": "Reno stock firmware:aw8697_Lakeside_RTP_25.bin",
+    "sha256": "785cb39e7fb1903230539e97cd4baf35b24655d493377925c72cc1523bac02dd",
+    "bytes": 388299
+  },
+  "system/etc/firmware/aw8697_Lifestyle_RTP_26.bin": {
+    "source": "Reno stock firmware:aw8697_Lifestyle_RTP_26.bin",
+    "sha256": "895c7f6c938b28dc7e1d131119116c0d63d414035c4fddd7028e9c00ee5ffc7c",
+    "bytes": 398947
+  },
+  "system/etc/firmware/aw8697_listen_pop_53.bin": {
+    "source": "Reno stock firmware:aw8697_listen_pop_53.bin",
+    "sha256": "1c73ef339bc1d9d8a35f26a883b91dd3788301ab6139777f9e30891ff1964d76",
+    "bytes": 48000
+  },
+  "system/etc/firmware/aw8697_Long_for_RTP_coloros7_136.bin": {
+    "source": "Reno stock firmware:aw8697_Long_for_RTP_coloros7_136.bin",
+    "sha256": "4f8fcfd526a8701d6371c00efc44290f39b4d9131c3b656fdc9286510a29399b",
+    "bytes": 678254
+  },
+  "system/etc/firmware/aw8697_long_sound_channel_RTP_44.bin": {
+    "source": "Reno stock firmware:aw8697_long_sound_channel_RTP_44.bin",
+    "sha256": "9fb304564a1d9b491b61ad2f4c60c9c661502ec67dc5b6dc902b0f1c19db867a",
+    "bytes": 144007
+  },
+  "system/etc/firmware/aw8697_long_sound_channel_RTP_44_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_long_sound_channel_RTP_44_166Hz.bin",
+    "sha256": "9ce068d341831e736c5430ae2722554d2e72afe1f5ffb68e3fc820b9bd6a6999",
+    "bytes": 122497
+  },
+  "system/etc/firmware/aw8697_long_sound_channel_RTP_44_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_long_sound_channel_RTP_44_170Hz.bin",
+    "sha256": "c2b07466f21da137adc6952525a43eeb33ba94d3f2816eabe1a400d32a57a18e",
+    "bytes": 122497
+  },
+  "system/etc/firmware/aw8697_long_sound_channel_RTP_44_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_long_sound_channel_RTP_44_174Hz.bin",
+    "sha256": "935629a4be5cddfbaf7d247a29011c89c69313a597e53f786781f994205d4d59",
+    "bytes": 122497
+  },
+  "system/etc/firmware/aw8697_Memories_RTP_27.bin": {
+    "source": "Reno stock firmware:aw8697_Memories_RTP_27.bin",
+    "sha256": "164b1f0edb9104d38cf69d13cb7f0cce44f24f03d47ce5c3e93709fde0ffd67f",
+    "bytes": 532125
+  },
+  "system/etc/firmware/aw8697_Messy_RTP_28.bin": {
+    "source": "Reno stock firmware:aw8697_Messy_RTP_28.bin",
+    "sha256": "f32cfbe14edcf6e56d98ea1ad3fbc94bd40189ebe77b8c73e4f6039c9edf3f9c",
+    "bytes": 423617
+  },
+  "system/etc/firmware/aw8697_Miss_RTP_coloros7_124.bin": {
+    "source": "Reno stock firmware:aw8697_Miss_RTP_coloros7_124.bin",
+    "sha256": "dbdd029108a2681585190039ceeb42630bf7195ecf07f79b6f873a6ef217eb8b",
+    "bytes": 338385
+  },
+  "system/etc/firmware/aw8697_Music_channel_RTP_3.bin": {
+    "source": "Reno stock firmware:aw8697_Music_channel_RTP_3.bin",
+    "sha256": "71d790c15703045327249188e19a5ba5599bf6f2a6111b6d863816230b226fea",
+    "bytes": 63593
+  },
+  "system/etc/firmware/aw8697_Music_channel_RTP_coloros7_125.bin": {
+    "source": "Reno stock firmware:aw8697_Music_channel_RTP_coloros7_125.bin",
+    "sha256": "abd80790f3f238eefa73f02ec09a0ed21ee65d4c2851d076c418a533fea8f66e",
+    "bytes": 24870
+  },
+  "system/etc/firmware/aw8697_nfc_10_RTP_55.bin": {
+    "source": "Reno stock firmware:aw8697_nfc_10_RTP_55.bin",
+    "sha256": "aadec1cb5ad488e91a899ff7de588badff3fea196ccf62c6bf041360c841bc42",
+    "bytes": 13651
+  },
+  "system/etc/firmware/aw8697_nfc_55_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_nfc_55_166Hz.bin",
+    "sha256": "52d656d61478d3c6b2ff0866358af98341baba4681dd54d08f4f7347284d6319",
+    "bytes": 13649
+  },
+  "system/etc/firmware/aw8697_nfc_55_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_nfc_55_170Hz.bin",
+    "sha256": "e42de2d077f25cb627add1d18e29e7e71099a0eba2e12ceedc63c7473dc412cf",
+    "bytes": 13649
+  },
+  "system/etc/firmware/aw8697_nfc_55_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_nfc_55_174Hz.bin",
+    "sha256": "50764d342c57e27a6637390a424d86fa84626c775b45294a0e026a168f10393b",
+    "bytes": 13649
+  },
+  "system/etc/firmware/aw8697_Night_RTP_29.bin": {
+    "source": "Reno stock firmware:aw8697_Night_RTP_29.bin",
+    "sha256": "1e35a9d50fe71cba6f5ef649872e2a99896b4a39c66913c96c0911d1f4d47513",
+    "bytes": 224786
+  },
+  "system/etc/firmware/aw8697_notice_13_RTP_57.bin": {
+    "source": "Reno stock firmware:aw8697_notice_13_RTP_57.bin",
+    "sha256": "8512f1e754c0780787218696b11a19c736e78012d1f32d50a22917d332c812e7",
+    "bytes": 9600
+  },
+  "system/etc/firmware/aw8697_old_steady_168.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_168.bin",
+    "sha256": "4aacde8320231e5017a89c3495170c3c9f65fd4b25e920d74f4e2cf87afb591f",
+    "bytes": 48000
+  },
+  "system/etc/firmware/aw8697_old_steady_170.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_170.bin",
+    "sha256": "27b63820cfee1343ee50b8fad2b12bf253059045a0122d0b62a90acffe8ccac3",
+    "bytes": 48000
+  },
+  "system/etc/firmware/aw8697_old_steady_173.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_173.bin",
+    "sha256": "a94238113f6f1f960186985c949aa26537023c1a2e2216615d8895bd44d31f7d",
+    "bytes": 48000
+  },
+  "system/etc/firmware/aw8697_old_steady_175.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_175.bin",
+    "sha256": "ba5a5c0a97b50d5bf483576dbcb989703dc7a6f594d5e5445f05a944a18cd63c",
+    "bytes": 48000
+  },
+  "system/etc/firmware/aw8697_old_steady_test_19081_52.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_test_19081_52.bin",
+    "sha256": "a5306e133f9d8604c56b232dcd2fe30ca1ba7107df38245d6824843f7b41ec49",
+    "bytes": 72000
+  },
+  "system/etc/firmware/aw8697_old_steady_test_RTP_52.bin": {
+    "source": "Reno stock firmware:aw8697_old_steady_test_RTP_52.bin",
+    "sha256": "e2553f4cbfb7f081cd8d6dd20d22706a66149e1392043d8e8202b34808621193",
+    "bytes": 72000
+  },
+  "system/etc/firmware/aw8697_Overtone_channel_RTP_14.bin": {
+    "source": "Reno stock firmware:aw8697_Overtone_channel_RTP_14.bin",
+    "sha256": "187666591f4b1b20e4a37cdd81ea1346e65893eee834fe7c1a2356a90830061f",
+    "bytes": 56394
+  },
+  "system/etc/firmware/aw8697_Overtone_channel_RTP_coloros7_132.bin": {
+    "source": "Reno stock firmware:aw8697_Overtone_channel_RTP_coloros7_132.bin",
+    "sha256": "ebaa366dc9a368b6db070af9352c06082c8317c81f249b23aa4d109028a60b41",
+    "bytes": 19877
+  },
+  "system/etc/firmware/aw8697_Passionate_Dance_RTP_30.bin": {
+    "source": "Reno stock firmware:aw8697_Passionate_Dance_RTP_30.bin",
+    "sha256": "1d90963aab81af4aa617040e9a18083b5df67fe3d4a270505549c0c67e95c2be",
+    "bytes": 432387
+  },
+  "system/etc/firmware/aw8697_Percussion_channel_RTP_4.bin": {
+    "source": "Reno stock firmware:aw8697_Percussion_channel_RTP_4.bin",
+    "sha256": "bf00564751341a22d085ab281642765b6904a7ff2f81e2908bcb073bc3283967",
+    "bytes": 73311
+  },
+  "system/etc/firmware/aw8697_Percussion_channel_RTP_coloros7_126.bin": {
+    "source": "Reno stock firmware:aw8697_Percussion_channel_RTP_coloros7_126.bin",
+    "sha256": "655a8f8d2e22503a2d43def0d68990adb68a4d72dc0044b64ee35ab39e7e95aa",
+    "bytes": 22594
+  },
+  "system/etc/firmware/aw8697_Percussion_channel_RTP_coloros7_26.bin": {
+    "source": "Reno stock firmware:aw8697_Percussion_channel_RTP_coloros7_26.bin",
+    "sha256": "655a8f8d2e22503a2d43def0d68990adb68a4d72dc0044b64ee35ab39e7e95aa",
+    "bytes": 22594
+  },
+  "system/etc/firmware/aw8697_Playground_RTP_31.bin": {
+    "source": "Reno stock firmware:aw8697_Playground_RTP_31.bin",
+    "sha256": "7cd98057cd4b7e3092d8a84ff6707380a4225fddcc818c7e1a1aebf8ee4cbf96",
+    "bytes": 412910
+  },
+  "system/etc/firmware/aw8697_Pure_RTP_49.bin": {
+    "source": "Reno stock firmware:aw8697_Pure_RTP_49.bin",
+    "sha256": "a4c651d07904bab6f0210af79055a02ecdaecedcf922dbdc748eabc9ff5270bb",
+    "bytes": 250721
+  },
+  "system/etc/firmware/aw8697_realme_its_realme_RTP_500.bin": {
+    "source": "Reno stock firmware:aw8697_realme_its_realme_RTP_500.bin",
+    "sha256": "4f3ea64569c3c12d060057802cee7a70b593586aedc0bf2b198762d62a0b45e6",
+    "bytes": 625371
+  },
+  "system/etc/firmware/aw8697_realme_jingle_RTP_502.bin": {
+    "source": "Reno stock firmware:aw8697_realme_jingle_RTP_502.bin",
+    "sha256": "a6cef5b9e1eee6db54409567dd415670227f921eca47bb1f1bce3faad70711ff",
+    "bytes": 39144
+  },
+  "system/etc/firmware/aw8697_realme_tune_RTP_501.bin": {
+    "source": "Reno stock firmware:aw8697_realme_tune_RTP_501.bin",
+    "sha256": "e9fcb6664b9559fa0f749a4063a020e041ab92fb37532a0375ab7dcf34a00345",
+    "bytes": 514830
+  },
+  "system/etc/firmware/aw8697_Receive_channel_RTP_15.bin": {
+    "source": "Reno stock firmware:aw8697_Receive_channel_RTP_15.bin",
+    "sha256": "99c2653db545f54fd89d8e69e4e842ba4744879c1232d48ede803c2397ce986e",
+    "bytes": 86682
+  },
+  "system/etc/firmware/aw8697_Relax_RTP_32.bin": {
+    "source": "Reno stock firmware:aw8697_Relax_RTP_32.bin",
+    "sha256": "ad22b1b3646c6e59e2c6eb876323a3dbfc1bdcda6a7e8afba95b2043d4bc51e8",
+    "bytes": 196853
+  },
+  "system/etc/firmware/aw8697_Relax_RTP_coloros7_140.bin": {
+    "source": "Reno stock firmware:aw8697_Relax_RTP_coloros7_140.bin",
+    "sha256": "9d542b501b32e22385ba242d7126b0e03153d9a0f0d3814800cc13416da6f852",
+    "bytes": 744359
+  },
+  "system/etc/firmware/aw8697_Reminiscence_RTP_33.bin": {
+    "source": "Reno stock firmware:aw8697_Reminiscence_RTP_33.bin",
+    "sha256": "c7ac6cfdc39037f90cdbe4875774eb0d6ade185f3a79f97027b294d5671f8f85",
+    "bytes": 385438
+  },
+  "system/etc/firmware/aw8697_Ripple_channel_RTP_5.bin": {
+    "source": "Reno stock firmware:aw8697_Ripple_channel_RTP_5.bin",
+    "sha256": "e2e0a7551c07e3a0521170c184b0f50a06399945f97ac882db210f0e82315aaf",
+    "bytes": 82178
+  },
+  "system/etc/firmware/aw8697_Ripple_channel_RTP_coloros7_127.bin": {
+    "source": "Reno stock firmware:aw8697_Ripple_channel_RTP_coloros7_127.bin",
+    "sha256": "ab92f7d265bcfc83d25b1ee16ab56b1618e2e8d3e9b96fb493d44822334ce11b",
+    "bytes": 21101
+  },
+  "system/etc/firmware/aw8697_Romantic_RTP_coloros7_137.bin": {
+    "source": "Reno stock firmware:aw8697_Romantic_RTP_coloros7_137.bin",
+    "sha256": "510897087405c283171451b02276fa3783cd7fcb47cf70f3fcc552c9de2efb76",
+    "bytes": 626366
+  },
+  "system/etc/firmware/aw8697_rtp.bin": {
+    "source": "Reno stock firmware:aw8697_rtp.bin",
+    "sha256": "36438cefa7206dac9ef150b613418d5912c3eb69ed4e0084798602985b43470d",
+    "bytes": 72000
+  },
+  "system/etc/firmware/aw8697_rtp_lighthouse.bin": {
+    "source": "Reno stock firmware:aw8697_rtp_lighthouse.bin",
+    "sha256": "75363c03e626fa05b1a7bdbe7e7b9c38b43456db1a64b6d3637f4b020200818c",
+    "bytes": 1444518
+  },
+  "system/etc/firmware/aw8697_Scenic_RTP_121.bin": {
+    "source": "Reno stock firmware:aw8697_Scenic_RTP_121.bin",
+    "sha256": "9c94d00c406968e85102516c301ad8cd1d67f6e454fcfe9c5242e8daf3e14aeb",
+    "bytes": 781711
+  },
+  "system/etc/firmware/aw8697_Seine_past_RTP_coloros7_134.bin": {
+    "source": "Reno stock firmware:aw8697_Seine_past_RTP_coloros7_134.bin",
+    "sha256": "a09864c2438807be3c08d97d537b4c60abd383920fb1dde73d062b45fb37ee24",
+    "bytes": 631883
+  },
+  "system/etc/firmware/aw8697_short_channel_RTP_45.bin": {
+    "source": "Reno stock firmware:aw8697_short_channel_RTP_45.bin",
+    "sha256": "c28b6a95b42caa31d00aa0d25e3047c24e27cb5367b56d47d9e902607fba1382",
+    "bytes": 108384
+  },
+  "system/etc/firmware/aw8697_short_channel_RTP_45_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_short_channel_RTP_45_166Hz.bin",
+    "sha256": "6edccd2d92a82916c6b208f4d22110ba5dd1a6549aedc059fb70d19ba457c9dd",
+    "bytes": 101914
+  },
+  "system/etc/firmware/aw8697_short_channel_RTP_45_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_short_channel_RTP_45_170Hz.bin",
+    "sha256": "3c2bd2babdd1175327f86ec347b70c12446f03c95ada2a12afa8b50f2fc035f2",
+    "bytes": 101914
+  },
+  "system/etc/firmware/aw8697_short_channel_RTP_45_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_short_channel_RTP_45_174Hz.bin",
+    "sha256": "3ec8d6415b166ff5d61ad89c711b407e8fefa24c8f207c24b380cd5270bb28ea",
+    "bytes": 101914
+  },
+  "system/etc/firmware/aw8697_Silence_From_Afar_RTP_34.bin": {
+    "source": "Reno stock firmware:aw8697_Silence_From_Afar_RTP_34.bin",
+    "sha256": "2968e6442ce9e0b0d737b1ee7500dd1e56aea893ed95a5f26ebc371cfeaf3e5b",
+    "bytes": 691984
+  },
+  "system/etc/firmware/aw8697_Silence_RTP_35.bin": {
+    "source": "Reno stock firmware:aw8697_Silence_RTP_35.bin",
+    "sha256": "3f4aa959840cd6bb8e712ea009a01b1d956d1fe50c9c0db59701cb35675fa1a3",
+    "bytes": 640001
+  },
+  "system/etc/firmware/aw8697_Simple_channel_RTP_48.bin": {
+    "source": "Reno stock firmware:aw8697_Simple_channel_RTP_48.bin",
+    "sha256": "54d7066b8b8b484466263175e8542bd00842fc104c1026ea06a963110c396548",
+    "bytes": 27251
+  },
+  "system/etc/firmware/aw8697_Simple_channel_RTP_coloros7_133.bin": {
+    "source": "Reno stock firmware:aw8697_Simple_channel_RTP_coloros7_133.bin",
+    "sha256": "7c474d59e9ad5dc6c3991d05e216018d5c3bd338c43cb483a05020c7c543337b",
+    "bytes": 27381
+  },
+  "system/etc/firmware/aw8697_soldier_fifth_kill_RTP_104.bin": {
+    "source": "Reno stock firmware:aw8697_soldier_fifth_kill_RTP_104.bin",
+    "sha256": "c28835fa92a53f92438082edaab0e4121574af2e9295ab1ae787c4f20ad82909",
+    "bytes": 16004
+  },
+  "system/etc/firmware/aw8697_soldier_first_kill_RTP_100.bin": {
+    "source": "Reno stock firmware:aw8697_soldier_first_kill_RTP_100.bin",
+    "sha256": "1565a3a1e0a6f3e91f616fd50976681c456fd369445e714d06fc4419290b529a",
+    "bytes": 4037
+  },
+  "system/etc/firmware/aw8697_soldier_fourth_kill_RTP_103.bin": {
+    "source": "Reno stock firmware:aw8697_soldier_fourth_kill_RTP_103.bin",
+    "sha256": "552e0ee3a96b7e6b3db2e64cbe7070a1ebd4011a102f4e17442f3239dfa116ee",
+    "bytes": 11698
+  },
+  "system/etc/firmware/aw8697_soldier_second_kill_RTP_101.bin": {
+    "source": "Reno stock firmware:aw8697_soldier_second_kill_RTP_101.bin",
+    "sha256": "eea8205e808f1c454131b370bfa61ecf80891864731742765fc18a747757ecb4",
+    "bytes": 5135
+  },
+  "system/etc/firmware/aw8697_soldier_third_kill_RTP_102.bin": {
+    "source": "Reno stock firmware:aw8697_soldier_third_kill_RTP_102.bin",
+    "sha256": "e206a6f05d2662079766583779b2c2fccea494f06ac9f629adcedf03f3d9d8f3",
+    "bytes": 8029
+  },
+  "system/etc/firmware/aw8697_Splash_channel_RTP_16.bin": {
+    "source": "Reno stock firmware:aw8697_Splash_channel_RTP_16.bin",
+    "sha256": "0120cac8a584ac8d6af1d19df49c37936d5bd6202eba0206d4cd4d443ecbde3c",
+    "bytes": 60375
+  },
+  "system/etc/firmware/aw8697_Stars_RTP_36.bin": {
+    "source": "Reno stock firmware:aw8697_Stars_RTP_36.bin",
+    "sha256": "fac7d0762beee996a50bc05d7d3f2caba499a426b5ae6318b1df2efedb32bcb1",
+    "bytes": 518738
+  },
+  "system/etc/firmware/aw8697_stepable_regulate_RTP_105_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_stepable_regulate_RTP_105_166Hz.bin",
+    "sha256": "70ceed2f262917208cda471746ee2a0152794c37ab12b44ed19611867e8215f5",
+    "bytes": 423
+  },
+  "system/etc/firmware/aw8697_stepable_regulate_RTP_105_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_stepable_regulate_RTP_105_170Hz.bin",
+    "sha256": "d821d150affd69c4109e80282c8ae299223c87e184224b6a053fb51055fbcd28",
+    "bytes": 423
+  },
+  "system/etc/firmware/aw8697_stepable_regulate_RTP_105_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_stepable_regulate_RTP_105_174Hz.bin",
+    "sha256": "f78f53af975bc37a9a8b88afc53cb826706c0d8778347863039ac35c1d5a425c",
+    "bytes": 423
+  },
+  "system/etc/firmware/aw8697_strength_level_bar_edge_RTP_107_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_strength_level_bar_edge_RTP_107_166Hz.bin",
+    "sha256": "4cbdcb9f05db2e3fb3ea885a240037fec7e5a0c5a9f720f742440dde74096900",
+    "bytes": 2235
+  },
+  "system/etc/firmware/aw8697_strength_level_bar_edge_RTP_107_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_strength_level_bar_edge_RTP_107_170Hz.bin",
+    "sha256": "32ba51a9c7820a0ae5df73785fb639ff21a94b495b1f2ac401924ff7e393215d",
+    "bytes": 2235
+  },
+  "system/etc/firmware/aw8697_strength_level_bar_edge_RTP_107_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_strength_level_bar_edge_RTP_107_174Hz.bin",
+    "sha256": "2ee74e9a26f82cbc7a7c004a738f23692bcfe950bb0b0087180a7e6634293bd3",
+    "bytes": 2235
+  },
+  "system/etc/firmware/aw8697_Summer_RTP_37.bin": {
+    "source": "Reno stock firmware:aw8697_Summer_RTP_37.bin",
+    "sha256": "8c008b1d59de9d8371be0704f03b1b0a5bc7894adb5c77baa7d1b9e97cc6ab7a",
+    "bytes": 373685
+  },
+  "system/etc/firmware/aw8697_third_ring_14_RTP_58.bin": {
+    "source": "Reno stock firmware:aw8697_third_ring_14_RTP_58.bin",
+    "sha256": "dd7c8c74df28a460fc12925eda83110f143039f76e92e3a75bf14843139608e9",
+    "bytes": 24000
+  },
+  "system/etc/firmware/aw8697_Toys_RTP_38.bin": {
+    "source": "Reno stock firmware:aw8697_Toys_RTP_38.bin",
+    "sha256": "8a97ff8ed9c162cec8546eb6bd1082f9f78b3177e49fa9283f506e512ead9e28",
+    "bytes": 456056
+  },
+  "system/etc/firmware/aw8697_Travel_RTP_39.bin": {
+    "source": "Reno stock firmware:aw8697_Travel_RTP_39.bin",
+    "sha256": "c10232715329edd36067c73793ff2f66b1db0ee3a47bac8988133a8552a1d252",
+    "bytes": 434749
+  },
+  "system/etc/firmware/aw8697_two_error_remaind_RTP_46.bin": {
+    "source": "Reno stock firmware:aw8697_two_error_remaind_RTP_46.bin",
+    "sha256": "7fd47918ec21c9df2a35f42f349c93d66842cc2c294b8e8e396adca4277ba44c",
+    "bytes": 5033
+  },
+  "system/etc/firmware/aw8697_two_error_remaind_RTP_46_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_two_error_remaind_RTP_46_166Hz.bin",
+    "sha256": "00fe054bc4f3178c45e68bd04dc1f029876c1a1f598c96801bd7a8fa6e2425a3",
+    "bytes": 4115
+  },
+  "system/etc/firmware/aw8697_two_error_remaind_RTP_46_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_two_error_remaind_RTP_46_170Hz.bin",
+    "sha256": "a567fe66eb55f2d762006bd38dfdd6df9c7de44a8246d41a09e0b4f4a40458a2",
+    "bytes": 4115
+  },
+  "system/etc/firmware/aw8697_two_error_remaind_RTP_46_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_two_error_remaind_RTP_46_174Hz.bin",
+    "sha256": "3b61a1e9391b496cf1b62ec88131d8c27f9b1d8c43e87feebf408c9924580fef",
+    "bytes": 4115
+  },
+  "system/etc/firmware/aw8697_vibrator_remain_12_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_vibrator_remain_12_166Hz.bin",
+    "sha256": "f74563bac942fd4f3c8b7a13a0a326c804ba3119e7d0910fc82eb7d51f42a103",
+    "bytes": 5046
+  },
+  "system/etc/firmware/aw8697_vibrator_remain_12_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_vibrator_remain_12_170Hz.bin",
+    "sha256": "0673f25c99712a6464a93da6cc200ece116f503eb8909d9b0c912d894c4ba767",
+    "bytes": 5046
+  },
+  "system/etc/firmware/aw8697_vibrator_remain_12_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_vibrator_remain_12_174Hz.bin",
+    "sha256": "99ea541a62a81395d6ffa2b01325da727f2a60f190e1da3f15b0103a1314eb99",
+    "bytes": 5046
+  },
+  "system/etc/firmware/aw8697_vibrator_remain_12_RTP_56.bin": {
+    "source": "Reno stock firmware:aw8697_vibrator_remain_12_RTP_56.bin",
+    "sha256": "72e4e0a58345eebd8942428538fbd34ff1f5265e479fa358cafc68dcf014e87a",
+    "bytes": 6939
+  },
+  "system/etc/firmware/aw8697_Vision_RTP_40.bin": {
+    "source": "Reno stock firmware:aw8697_Vision_RTP_40.bin",
+    "sha256": "5ecb0802f09caf71fa53f541ecff701655c962ee245e7907660bb77cf6449450",
+    "bytes": 781714
+  },
+  "system/etc/firmware/aw8697_voice_assistant_RTP_122_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_assistant_RTP_122_166Hz.bin",
+    "sha256": "5fec9ac48997b173ef3908e7f7ef887dfccef7684fb94f12610877c1422e0809",
+    "bytes": 2365
+  },
+  "system/etc/firmware/aw8697_voice_assistant_RTP_122_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_assistant_RTP_122_170Hz.bin",
+    "sha256": "ed05d8f066b44da756a328e12ae5480f98f0cfe439194a0814115d856d63a0f0",
+    "bytes": 2365
+  },
+  "system/etc/firmware/aw8697_voice_assistant_RTP_122_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_assistant_RTP_122_174Hz.bin",
+    "sha256": "94f2fcdd05be88371bad5353218018d44513be6060f1130a53762f1d8710de68",
+    "bytes": 2365
+  },
+  "system/etc/firmware/aw8697_voice_level_bar_edge_RTP_106_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_level_bar_edge_RTP_106_166Hz.bin",
+    "sha256": "aa2d944bcacdaf16b9ada4aabbeb2c0ec8ea1818d95409b72828f5a4f09f4aeb",
+    "bytes": 5896
+  },
+  "system/etc/firmware/aw8697_voice_level_bar_edge_RTP_106_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_level_bar_edge_RTP_106_170Hz.bin",
+    "sha256": "76fcf8e93ea03afad359871c6de48a8becd59b37b2fbf24b51ee03aea7cff10a",
+    "bytes": 5896
+  },
+  "system/etc/firmware/aw8697_voice_level_bar_edge_RTP_106_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_voice_level_bar_edge_RTP_106_174Hz.bin",
+    "sha256": "09a61c08a45463b7bf4665d7444a80d29c74bb792faeba36b7fca1f9e737aabc",
+    "bytes": 5896
+  },
+  "system/etc/firmware/aw8697_waltz_channel_RTP_41.bin": {
+    "source": "Reno stock firmware:aw8697_waltz_channel_RTP_41.bin",
+    "sha256": "3d5f994448bc9cbf7e26e19a0e81a2e63616e01f7fd15fa142610e893a8f2daf",
+    "bytes": 65204
+  },
+  "system/etc/firmware/aw8697_waltz_channel_RTP_41_166Hz.bin": {
+    "source": "Reno stock firmware:aw8697_waltz_channel_RTP_41_166Hz.bin",
+    "sha256": "949efaaa04f3653c001d98ca7bb59e525045c2c798eb13f5eff2d8ae8f3e993e",
+    "bytes": 63803
+  },
+  "system/etc/firmware/aw8697_waltz_channel_RTP_41_170Hz.bin": {
+    "source": "Reno stock firmware:aw8697_waltz_channel_RTP_41_170Hz.bin",
+    "sha256": "4c298e7fdb817be480bd3a740cc875236048f1a9c2cfc24da2ce4759c9c807e2",
+    "bytes": 63803
+  },
+  "system/etc/firmware/aw8697_waltz_channel_RTP_41_174Hz.bin": {
+    "source": "Reno stock firmware:aw8697_waltz_channel_RTP_41_174Hz.bin",
+    "sha256": "f25de7840949b4b6aab73c56de8882416ac7cd071d10514c0efffc778631ba34",
+    "bytes": 63803
+  },
+  "system/etc/firmware/aw8697_weather_cloudy_RTP_coloros7_143.bin": {
+    "source": "Reno stock firmware:aw8697_weather_cloudy_RTP_coloros7_143.bin",
+    "sha256": "23bd0fafdf9f9a717c44de2f91c75e094cefbc9fed8dd34e780a767c25bee5d4",
+    "bytes": 504886
+  },
+  "system/etc/firmware/aw8697_weather_default_RTP_coloros7_145.bin": {
+    "source": "Reno stock firmware:aw8697_weather_default_RTP_coloros7_145.bin",
+    "sha256": "27430e6e06591515592a280d2f45678f67ab0a2c38e8e8a3a59560e2be06719f",
+    "bytes": 728084
+  },
+  "system/etc/firmware/aw8697_weather_rain_RTP_coloros7_149.bin": {
+    "source": "Reno stock firmware:aw8697_weather_rain_RTP_coloros7_149.bin",
+    "sha256": "c78df941a1548d9acb4ae3c0ed03c5aaa70357fe86ff9d186718cbedda2d3b23",
+    "bytes": 396793
+  },
+  "system/etc/firmware/aw8697_weather_smog_RTP_coloros7_147.bin": {
+    "source": "Reno stock firmware:aw8697_weather_smog_RTP_coloros7_147.bin",
+    "sha256": "3a52a9d5b4738c77e1c7c3f00881ddc6959cdb8440226c16cb91eb8c0fd60dbd",
+    "bytes": 402237
+  },
+  "system/etc/firmware/aw8697_weather_snow_RTP_coloros7_148.bin": {
+    "source": "Reno stock firmware:aw8697_weather_snow_RTP_coloros7_148.bin",
+    "sha256": "7ad36bbc28b04050550b1ff4db7e60f5e5e74b685da3820e7b6f883ab1d6035e",
+    "bytes": 436840
+  },
+  "system/etc/firmware/aw8697_weather_sunny_RTP_coloros7_146.bin": {
+    "source": "Reno stock firmware:aw8697_weather_sunny_RTP_coloros7_146.bin",
+    "sha256": "ad052d7b16ea6f6e47aa1d88fd5de8681e6fd566daf93d052c9efcb8ccb4c237",
+    "bytes": 514432
+  },
+  "system/etc/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144.bin": {
+    "source": "Reno stock firmware:aw8697_weather_thunderstorm_RTP_coloros7_144.bin",
+    "sha256": "d7b4ff6b149586ac81beb4a7ce27bce5294de41c52b27bd2fd5016723c8198f9",
+    "bytes": 383220
+  },
+  "system/etc/firmware/aw8697_weather_wind_RTP_coloros7_142.bin": {
+    "source": "Reno stock firmware:aw8697_weather_wind_RTP_coloros7_142.bin",
+    "sha256": "c6b46db02c83b6eb36fe166cee2cbc209c4dbb02977b4ea89f00485c49978805",
+    "bytes": 461435
+  }
+}

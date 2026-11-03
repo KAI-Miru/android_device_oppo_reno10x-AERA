@@ -1,0 +1,10 @@
+# Reno 10x experimental dedicated recovery: physical, unslotted partitions.
+# System and vendor stay read-only; userdata encryption options follow stock recovery.
+/dev/block/by-name/system / ext4 ro wait
+/dev/block/by-name/vendor /vendor ext4 ro wait
+/dev/block/by-name/cache /cache ext4 noatime,nosuid,nodev,barrier=1,data=ordered wait,check
+/dev/block/bootdevice/by-name/metadata /metadata ext4 noatime,nosuid,nodev,discard wait,check
+/dev/block/bootdevice/by-name/userdata                  /data                  ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc,async_discard,errors=panic,inlinecrypt latemount,wait,check,resize,fileencryption=ice,wrappedkey,keydirectory=/metadata/vold/metadata_encryption,quota,reservedsize=128M
+/dev/block/bootdevice/by-name/misc /misc emmc defaults defaults
+/dev/block/bootdevice/by-name/boot /boot emmc defaults defaults
+/dev/block/bootdevice/by-name/recovery /recovery emmc defaults defaults

@@ -1,0 +1,8 @@
+* text=auto
+*.rc text eol=lf
+*.fstab text eol=lf
+*.flags text eol=lf
+*.mk text eol=lf
+*.py text eol=lf
+proprietary/** -text
+prebuilt/** -text
