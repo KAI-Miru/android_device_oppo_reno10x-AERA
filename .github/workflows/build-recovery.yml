@@ -1,0 +1,93 @@
+name: Reno 10x AERA metadata upgrade test
+on:
+  workflow_dispatch:
+    inputs:
+      build_jobs:
+        description: Parallel Android build jobs
+        type: choice
+        options: ['2', '4']
+        default: '4'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reno10x-recovery-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ${{ vars.AERA_BUILD_RUNNER || 'ubuntu-22.04' }}
+    timeout-minutes: 360
+    env:
+      BUILD_JOBS: ${{ inputs.build_jobs }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Free hosted runner disk space
+        if: runner.environment == 'github-hosted'
+        uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
+      - name: Remove unused hosted SDKs
+        if: runner.environment == 'github-hosted'
+        shell: bash
+        run: |
+          sudo rm -rf /usr/share/swift /usr/local/swift /usr/local/lib/node_modules /usr/local/share/powershell /usr/local/share/chromium /opt/az /opt/google /opt/microsoft /usr/lib/jvm
+          sudo rm -rf "$HOME/.rustup" "$HOME/.cargo" "$HOME/.cache"
+      - name: Install build prerequisites
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends bc binutils bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf libelf-dev liblz4-tool libncurses-dev libssl-dev libxml2 libxml2-utils lzop python3 rsync unzip xsltproc zip zlib1g-dev
+          mkdir -p "$RUNNER_TEMP/bin" "$RUNNER_TEMP/aera-artifacts"
+          curl --fail --location --retry 3 https://storage.googleapis.com/git-repo-downloads/repo -o "$RUNNER_TEMP/bin/repo"
+          chmod 0755 "$RUNNER_TEMP/bin/repo"
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+          echo "AERA_SOURCE_DIR=$RUNNER_TEMP/aera-source" >> "$GITHUB_ENV"
+          echo "AERA_ARTIFACT_DIR=$RUNNER_TEMP/aera-artifacts" >> "$GITHUB_ENV"
+          df -h "$RUNNER_TEMP"
+      - name: Check hosted runner capacity
+        if: runner.environment == 'github-hosted'
+        shell: bash
+        run: |
+          free_gib=$(df -BG --output=avail "$RUNNER_TEMP" | tail -1 | tr -dc '0-9')
+          if [ "$free_gib" -lt 30 ]; then
+            echo 'Insufficient source space. Configure AERA_BUILD_RUNNER with a larger Linux runner.' >&2
+            exit 1
+          fi
+          if [ "$(df -BG --output=avail /mnt | tail -1 | tr -dc '0-9')" -ge 10 ]; then
+            sudo fallocate -l 8G /mnt/aera-reno-swap
+            sudo chmod 0600 /mnt/aera-reno-swap
+            sudo mkswap /mnt/aera-reno-swap
+            sudo swapon /mnt/aera-reno-swap
+          fi
+      - name: Build and verify dedicated recovery
+        shell: bash
+        run: bash ci/build.sh 2>&1 | tee "$AERA_ARTIFACT_DIR/session.log"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: reno10x-metadata-upgrade-device-test
+          path: |
+            ${{ runner.temp }}/aera-artifacts/AERA-reno10x-metadata-upgrade-recovery.img
+            ${{ runner.temp }}/aera-artifacts/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 14
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        if: always()
+        with:
+          name: reno10x-build-diagnostics
+          path: |
+            ${{ runner.temp }}/aera-artifacts/*.log
+            ${{ runner.temp }}/aera-artifacts/*.xml
+            ${{ runner.temp }}/aera-artifacts/*.txt
+            ${{ runner.temp }}/aera-artifacts/*.json
+          if-no-files-found: ignore
+          retention-days: 14

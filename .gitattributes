@@ -6,3 +6,5 @@
 *.py text eol=lf
 proprietary/** -text
 prebuilt/** -text
+*.sh text eol=lf
+*.patch text eol=lf
