@@ -40,6 +40,12 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.graphics.allocator-V2-ndk.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.graphics.allocator@2.0.so
 
+# AERA recovery and libtar link these clients on A-only devices too.
+TARGET_RECOVERY_DEVICE_MODULES += libboot_control_client android.hardware.boot-V1-ndk
+RECOVERY_LIBRARY_SOURCE_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/libboot_control_client.so \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.boot-V1-ndk.so
+
 PRODUCT_VENDOR_PROPERTIES += ro.hardware.egl=adreno ro.hardware.gralloc=msmnile
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
 

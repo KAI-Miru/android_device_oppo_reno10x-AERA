@@ -314,7 +314,7 @@
       "remote": "Miru",
       "url": "https://github.com/KAI-Miru/android_system_security.git",
       "branch": "reno-metadata-upgrade-test",
-      "commit": "7469a14331d32f3c41930629f96b5cc68328e1f8"
+      "commit": "127ccf83bc04454415b8881c623f467af5629788"
     },
     {
       "path": "system/sepolicy",
