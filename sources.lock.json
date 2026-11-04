@@ -313,8 +313,8 @@
       "name": "android_system_security",
       "remote": "Miru",
       "url": "https://github.com/KAI-Miru/android_system_security.git",
-      "branch": "miru",
-      "commit": "c66ca2f4a34379bace20db261f0fd75096e9ffe9"
+      "branch": "reno-metadata-upgrade-test",
+      "commit": "7469a14331d32f3c41930629f96b5cc68328e1f8"
     },
     {
       "path": "system/sepolicy",
@@ -335,10 +335,10 @@
     {
       "path": "system/vold",
       "name": "android_system_vold",
-      "remote": "AERA",
-      "url": "https://github.com/AERA-Recovery/android_system_vold.git",
-      "branch": "aera-16.0",
-      "commit": "36bb8ce4fbbb4615f3d87638347c59eface0853b"
+      "remote": "Miru",
+      "url": "https://github.com/KAI-Miru/android_system_vold.git",
+      "branch": "reno-metadata-upgrade-test",
+      "commit": "39b2c159669e3f6d8bc6ded93ea6eb98ee2954d0"
     },
     {
       "path": "vendor/recovery",

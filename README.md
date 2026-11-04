@@ -9,4 +9,4 @@ Check out at device/oppo/reno10x, use the AERA projects in sources.lock.json, se
 - Reno ext4 userdata with ICE and wrapped keys. Keep additional fstab processing for the installed ROM. Metadata decryption remains unresolved.
 - Start from the graphics configuration used in the booted Guacamole-derived test. See the blob manifest for provenance. Reno WLAN is disabled pending device-specific validation.
 
-This source tree has not been Android-built. Before any test boot, check the resulting image against the physical size and verify the recovery AVB hash footer. The previously booted custom recovery used an unsigned hash footer on an unlocked phone. The separate metadata upgrade parameter experiment is not in this baseline.
+The source lock includes the Reno metadata upgrade experiment in Vold and Keystore2. Device validation of this experiment is pending. Before any test boot, check the image against the physical partition size and verify the recovery AVB hash footer.
