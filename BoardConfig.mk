@@ -48,6 +48,8 @@ BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE) --pagesize $(BOARD_KERNEL_PA
 BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET) --header_version $(BOARD_BOOT_HEADER_VERSION)
+# Match the stock boot header without overriding Android platform version properties.
+BOARD_MKBOOTIMG_ARGS += --os_version 12.0.0 --os_patch_level 2022-10-05
 
 # Physical A-only with a dedicated recovery partition.
 BOARD_USES_RECOVERY_AS_BOOT := false
