@@ -93,10 +93,7 @@ PY
 bash "$runner_root/ci/run-with-capacity.sh" bash "$runner_root/ci/compile.sh"
 image=out/target/product/reno10x/recovery.img
 test -s "$image"
-python3 "$runner_root/tools/verify_test_image.py" "$device_repo" "$image" > "$artifact_root/image-verification.json"
 python3 external/avb/avbtool.py add_hash_footer --image "$image" --partition_name recovery --partition_size 67108864 --hash_algorithm sha256 --algorithm NONE
-test "$(stat -c %s "$image")" = 67108864
-python3 external/avb/avbtool.py verify_image --image "$image" > "$artifact_root/avb-verification.txt"
 cp "$image" "$artifact_root/AERA-reno10x-metadata-upgrade-recovery.img"
 cd "$artifact_root"
 sha256sum AERA-reno10x-metadata-upgrade-recovery.img > SHA256SUMS

@@ -1,8 +1,11 @@
-"""Check the Reno recovery payload before adding its AVB footer."""
+"""Check the pre-AVB payload of a downloaded Reno recovery image locally."""
 import hashlib
 import json
 import lzma
+import re
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 from boot_v2 import parse_boot
@@ -36,10 +39,27 @@ while True:
 
 for name, record in json.loads((root / 'proprietary/manifest.json').read_text()).items():
     assert hashlib.sha256(entries[name]).hexdigest() == record['sha256'], name
-for name in ('system/bin/recovery', 'system/bin/keystore2'):
+def arm64(name):
     binary = entries[name]
     assert binary[:5] == b'\x7fELF\x02' and binary[18:20] == b'\xb7\x00', name
-    assert b'aera-reno-metadata-upgrade-test' in binary, name
+    return binary
+
+
+marker = b'aera-reno-metadata-upgrade-test'
+assert marker in arm64('system/bin/recovery'), 'Reno marker missing from recovery'
+keystore_path = 'system/bin/keystore2'
+keystore = arm64(keystore_path)
+if marker not in keystore:
+    # Rust can place the experiment in the shared library instead of the executable.
+    with tempfile.TemporaryDirectory() as temp:
+        executable = Path(temp) / 'keystore2'
+        executable.write_bytes(keystore)
+        readelf = sys.argv[3] if len(sys.argv) > 3 else 'readelf'
+        dynamic = subprocess.check_output([readelf, '-d', str(executable)], text=True)
+    needed = re.findall(r'\(NEEDED\).*?\[(libkeystore2(?:\.dylib)?\.so)\]', dynamic)
+    assert len(needed) == 1, 'Keystore2 marker missing and no unique linked libkeystore2 found'
+    keystore_path = 'system/lib64/' + needed[0]
+    assert marker in arm64(keystore_path), f'Reno marker missing from {keystore_path}'
 assert 'system/bin/fastbootd' not in entries
 print(json.dumps({'payload_bytes': len(image), 'ramdisk_bytes': len(compressed),
-                  'reno_marker_in_both_executables': True, 'bundled_blob_hashes_match': True}, indent=2))
+                  'keystore_marker_path': keystore_path, 'bundled_blob_hashes_match': True}, indent=2))
