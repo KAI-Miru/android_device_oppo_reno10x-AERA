@@ -93,7 +93,10 @@ PY
 bash "$runner_root/ci/run-with-capacity.sh" bash "$runner_root/ci/compile.sh"
 image=out/target/product/reno10x/recovery.img
 test -s "$image"
-python3 external/avb/avbtool.py add_hash_footer --image "$image" --partition_name recovery --partition_size 67108864 --hash_algorithm sha256 --algorithm NONE
+# Reno's bootloader uses the full stock patch date from recovery AVB for Keymaster.
+python3 external/avb/avbtool.py add_hash_footer --image "$image" --partition_name recovery \
+    --partition_size 67108864 --hash_algorithm sha256 --algorithm NONE \
+    --prop com.android.build.boot.security_patch:2022-10-05
 cp "$image" "$artifact_root/AERA-reno10x-metadata-upgrade-recovery.img"
 cd "$artifact_root"
 sha256sum AERA-reno10x-metadata-upgrade-recovery.img > SHA256SUMS
