@@ -39,7 +39,7 @@ def exclusions(manifest):
                     or p.attrib.get('path', p.attrib['name']) in FULL_FETCH_PREBUILTS)
 
 
-def configure(source_root):
+def configure(source_root, lock_path):
     source_root = Path(source_root).resolve()
     for project in FULL_SOURCE_PROJECTS:
         git_dir = source_root / '.repo/projects' / (project + '.git')
@@ -50,7 +50,7 @@ def configure(source_root):
         # only configuration. Rust is already fetched without a blob filter;
         # let repo initialize its worktree before inspecting or restoring HEAD.
         if project == 'prebuilts/rust' and initialized:
-            lock = json.loads((Path(__file__).resolve().parents[1] / 'sources.lock.json').read_text())
+            lock = json.loads(Path(lock_path).read_text())
             revision = ensure_snapshot(source_root, project, require_full=True,
                                        revision='refs/tags/' + lock['aosp_revision'])
             current = subprocess.run(['git', '--git-dir', str(git_dir),
@@ -98,8 +98,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['exclusions', 'configure'])
     parser.add_argument('path')
+    parser.add_argument('--lock')
     args = parser.parse_args()
     if args.mode == 'exclusions':
         print(exclusions(args.path))
     else:
-        configure(args.path)
+        if not args.lock:
+            parser.error('configure requires --lock')
+        configure(args.path, args.lock)

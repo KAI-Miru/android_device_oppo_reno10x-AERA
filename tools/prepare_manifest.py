@@ -3,9 +3,8 @@
 from pathlib import Path
 import argparse, json, xml.etree.ElementTree as ET
 
-def write_manifest(destination):
-    root = Path(__file__).resolve().parents[1]
-    lock = json.loads((root/'sources.lock.json').read_text())
+def write_manifest(lock_path, destination):
+    lock = json.loads(Path(lock_path).read_text())
     manifest = ET.Element('manifest')
     # A prebuilt SM8150 kernel and Linux recovery build do not consume GKI,
     # macOS Bazel, or VNDK snapshots for other vendor releases.
@@ -37,5 +36,6 @@ def write_manifest(destination):
     ET.ElementTree(manifest).write(target, encoding='utf-8', xml_declaration=True)
 
 if __name__ == '__main__':
-    p = argparse.ArgumentParser(description=__doc__); p.add_argument('destination')
-    write_manifest(p.parse_args().destination)
+    p = argparse.ArgumentParser(description=__doc__); p.add_argument('lock'); p.add_argument('destination')
+    args = p.parse_args()
+    write_manifest(args.lock, args.destination)

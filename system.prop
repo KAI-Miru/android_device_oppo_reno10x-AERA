@@ -1,6 +1,0 @@
-persist.sys.binary_xml=false
-ro.recovery.usb.vid=18D1
-ro.recovery.usb.adb.pid=4EE7
-ro.hardware.egl=adreno
-ro.hardware.gralloc=msmnile
-ro.aera.gpu.required_libraries=/system/lib64/libllvm-glnext.so

@@ -7,14 +7,14 @@ from pathlib import Path
 import subprocess
 
 
-def prepare(source_root, artifact_root):
-    device_root = Path(__file__).resolve().parents[1]
-    lock = json.loads((device_root / 'sources.lock.json').read_text())
+def prepare(source_root, artifact_root, lock_path):
+    runner_root = Path(__file__).resolve().parents[1]
+    lock = json.loads(Path(lock_path).read_text())
     records = []
     for project, name, purpose in (
             ('build/soong', 'soong-go-memory.patch', 'Pass GOGC/GOMEMLIMIT through the hermetic host builder launcher'),
             ('build/make', 'make-config-cache.patch', 'Preserve unchanged configuration timestamps; regenerate for changed settings')):
-        patch = device_root / 'ci/patches' / name
+        patch = runner_root / 'ci/patches' / name
         checkout = Path(source_root).resolve() / project
         expected = next(p['commit'] for p in lock['projects'] if p['path'] == project)
         git = ['git', '-C', str(checkout)]
@@ -38,5 +38,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('source_root')
     parser.add_argument('artifact_root')
+    parser.add_argument('lock')
     args = parser.parse_args()
-    prepare(args.source_root, args.artifact_root)
+    prepare(args.source_root, args.artifact_root, args.lock)

@@ -7,8 +7,8 @@ from pathlib import Path
 
 from boot_v2 import parse_boot
 
-root = Path(__file__).resolve().parents[1]
-image = Path(sys.argv[1]).read_bytes()
+root = Path(sys.argv[1])
+image = Path(sys.argv[2]).read_bytes()
 assert len(image) <= 64 * 1024 * 1024 - 69632, 'Recovery payload leaves no room for AVB'
 header, pieces = parse_boot(image)
 prebuilt = json.loads((root / 'prebuilt/manifest.json').read_text())
