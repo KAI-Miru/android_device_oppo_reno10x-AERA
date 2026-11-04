@@ -15,9 +15,9 @@
     "bytes": 11832
   },
   "system/bin/qseecomd": {
-    "source": "Reno stock recovery:system/bin/qseecomd",
-    "sha256": "15295176e7a05f0572fc47f2923f20baeaa67a39dca6f1fc4a6513fc2025b65c",
-    "bytes": 16504
+    "source": "Guacamole AERA 95f8b31086b15820ac6a45ee5131520968de3048:proprietary/system/bin/qseecomd",
+    "sha256": "5849792838759e17a70adecc352fd2639a18c9bd7b40650e4a6b215d7c63be8e",
+    "bytes": 20616
   },
   "system/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so": {
     "source": "Reno stock dump:vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so",
@@ -115,9 +115,9 @@
     "bytes": 19832
   },
   "system/lib64/libkeymasterutils.so": {
-    "source": "Reno stock recovery:system/lib64/libkeymasterutils.so",
-    "sha256": "4ef78227e5cb271607f3d183f90303d98dbc46dd54f89a97966b45eaee6ecad0",
-    "bytes": 38952
+    "source": "Guacamole AERA 95f8b31086b15820ac6a45ee5131520968de3048:proprietary/system/lib64/libkeymasterutils.so",
+    "sha256": "b3e21fa062b14502fe4694ab88046326db6debbbbaafe42a5f1096b0872df80c",
+    "bytes": 51848
   },
   "system/lib64/libllvm-glnext.so": {
     "source": "Guacamole AERA graphics baseline",
