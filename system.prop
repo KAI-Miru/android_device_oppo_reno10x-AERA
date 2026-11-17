@@ -4,3 +4,4 @@ ro.recovery.usb.adb.pid=4EE7
 ro.hardware.egl=adreno
 ro.hardware.gralloc=msmnile
 ro.aera.gpu.required_libraries=/system/lib64/libllvm-glnext.so
+ro.separate.soft=18115
